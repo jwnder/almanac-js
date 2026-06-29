@@ -1,21 +1,27 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
-import { makePlaceholderTex } from './latex.js';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { makeIncrementsTex } from './increments.js';
 import { makeSunTablesTex } from './sun-tables.js';
 import { makeEventTablesTex } from './event-tables.js';
 import { makeNauticalAlmanacTex } from './nautical-tables.js';
 import { compileTex } from './pdf.js';
 
+const MODULE_DIR = dirname(fileURLToPath(import.meta.url));
+const PROJECT_ROOT = dirname(MODULE_DIR);
+
 export async function generateAlmanac(config) {
-  const tex = makeTex(config);
+  const tex = makeTex(withSupportAssets(config));
   const outputDir = config.outputDir ?? 'output';
   await mkdir(outputDir, { recursive: true });
-
   const outputPath = join(outputDir, `${config.fileBase}.tex`);
   await writeFile(outputPath, tex, 'utf8');
 
-  const pdfPath = await compileTex(outputPath, { keepTex: config.keepTex, keepLog: false });
+  const pdfPath = await compileTex(outputPath, {
+    keepTex: config.keepTex,
+    keepLog: config.keepLog,
+    verbose: config.verbose
+  });
 
   return {
     fileBase: config.fileBase,
@@ -24,20 +30,24 @@ export async function generateAlmanac(config) {
   };
 }
 
+function withSupportAssets(config) {
+  if (config.outputType !== 'nautical') return config;
+  return {
+    ...config,
+    chartPath: toTexPath(join(PROJECT_ROOT, 'assets', 'A4chartNorth_P.pdf'))
+  };
+}
+
+function toTexPath(path) {
+  return path.replaceAll('\\', '/');
+}
+
 function makeTex(config) {
-  if (config.outputType === 'nautical') {
-    return makeNauticalAlmanacTex(config);
-  }
-  if (config.outputType === 'increments') {
-    return makeIncrementsTex(config);
-  }
-  if (config.outputType === 'sun') {
-    return makeSunTablesTex(config);
-  }
-  if (config.outputType === 'events') {
-    return makeEventTablesTex(config);
-  }
-  return makePlaceholderTex(config);
+  if (config.outputType === 'nautical') return makeNauticalAlmanacTex(config);
+  if (config.outputType === 'increments') return makeIncrementsTex(config);
+  if (config.outputType === 'sun') return makeSunTablesTex(config);
+  if (config.outputType === 'events') return makeEventTablesTex(config);
+  throw new Error(`Unsupported output type: ${config.outputType}`);
 }
 
 function messageFor(config) {
@@ -53,5 +63,5 @@ function messageFor(config) {
   if (config.outputType === 'events') {
     return 'Generated converted Event Time tables with Astronomy Engine rise/set data and compiled them to PDF.';
   }
-  return 'Generated scaffold TeX and compiled it to PDF. The remaining table renderer still needs conversion.';
+  throw new Error(`Unsupported output type: ${config.outputType}`);
 }

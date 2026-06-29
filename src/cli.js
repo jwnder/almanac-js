@@ -38,7 +38,7 @@ async function promptAnswers() {
     {
       type: 'input',
       name: 'dateSpec',
-      message: 'Date/range: DDMMYYYY, YYYY, YYYY-YYYY, MM, -MM, or blank for today',
+      message: 'Date/range (DDMMYYYY, YYYY, YYYY-YYYY, MM, -MM; leave blank for today):',
       when: ({ outputType }) => ['nautical', 'sun', 'events'].includes(outputType),
       default: ''
     },
@@ -86,6 +86,24 @@ async function promptAnswers() {
       name: 'keepTex',
       message: 'Keep generated TeX files?',
       default: false
+    },
+    {
+      type: 'confirm',
+      name: 'keepLog',
+      message: 'Keep generated LaTeX log files?',
+      default: false
+    },
+    {
+      type: 'confirm',
+      name: 'verbose',
+      message: 'Show pdflatex output while compiling?',
+      default: false
+    },
+    {
+      type: 'confirm',
+      name: 'dataPagesOnly',
+      message: 'Data pages only, when supported?',
+      default: false
     }
   ]);
 }
@@ -102,7 +120,10 @@ function parseQuickArgs(args) {
     tableStyle: 'traditional',
     paperSize: 'A4',
     outputDir: 'output',
-    keepTex: false
+    keepTex: false,
+    keepLog: false,
+    verbose: false,
+    dataPagesOnly: false
   };
 
   for (let index = 0; index < args.length; index += 1) {
@@ -113,6 +134,18 @@ function parseQuickArgs(args) {
     }
     if (arg === '--keep-tex') {
       parsed.keepTex = true;
+      continue;
+    }
+    if (arg === '--keep-log') {
+      parsed.keepLog = true;
+      continue;
+    }
+    if (arg === '--verbose') {
+      parsed.verbose = true;
+      continue;
+    }
+    if (arg === '--data-pages-only') {
+      parsed.dataPagesOnly = true;
       continue;
     }
     if (arg === '--type') {
@@ -179,15 +212,18 @@ function printUsage() {
 
 Options:
   --type <type>       nautical, sun, events, increments, or fixed shortcuts
-  --date <spec>       DDMMYYYY, YYYY, YYYY-YYYY, MM, -MM, or blank if omitted
+  --date <spec>       DDMMYYYY, YYYY, YYYY-YYYY, MM, -MM; omit for today
   --days <count>      Number of days for DDMMYYYY date specs
   --style <style>     traditional|modern, or t|m
   --paper <size>      A4|Letter
   --output-dir <dir>  Directory for generated PDFs and optional TeX files
-  --keep-tex          Preserve generated .tex file`);
+  --keep-tex          Preserve generated .tex file
+  --keep-log          Preserve generated .log file
+  --verbose           Show pdflatex output while compiling
+  --data-pages-only   Skip title/front matter when supported`);
 }
-
 main().catch(error => {
   console.error(error.message);
   process.exitCode = 1;
 });
+

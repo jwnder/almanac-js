@@ -15,18 +15,15 @@ export async function compileTex(texPath, options = {}) {
   const executable = await findPdfLatex();
   const args = ['-enable-installer', '-interaction=batchmode', '-halt-on-error', absoluteTexPath];
 
-  const result = await run(executable, args, cwd);
+  const result = await run(executable, args, cwd, Boolean(options.verbose));
   if (result.code !== 0) {
+    if (!options.verbose && result.output) process.stderr.write(result.output);
     throw new Error(`pdflatex failed for ${texPath}. Check the .log file for details.`);
   }
 
-  if (!options.keepTex) {
-    await removeIfExists(absoluteTexPath);
-  }
+  if (!options.keepTex) await removeIfExists(absoluteTexPath);
   await removeIfExists(absoluteTexPath.replace(/\.tex$/i, '.aux'));
-  if (!options.keepLog) {
-    await removeIfExists(absoluteTexPath.replace(/\.tex$/i, '.log'));
-  }
+  if (!options.keepLog) await removeIfExists(absoluteTexPath.replace(/\.tex$/i, '.log'));
 
   return absoluteTexPath.replace(/\.tex$/i, '.pdf');
 }
@@ -43,7 +40,7 @@ async function findPdfLatex() {
     if (await fileExists(candidate)) return candidate;
   }
 
-  throw new Error('pdflatex was not found. Install MiKTeX/TeX Live or add pdflatex to PATH.');
+  throw new Error('pdflatex was not found. Install MiKTeX/TeX Live or add pdflatex to PATH. On Windows, run: winget install MiKTeX.MiKTeX');
 }
 
 function commandExists(command) {
@@ -56,11 +53,16 @@ function commandExists(command) {
   });
 }
 
-function run(command, args, cwd) {
+function run(command, args, cwd, verbose) {
   return new Promise((resolveRun, reject) => {
-    const child = spawn(command, args, { cwd, stdio: 'inherit', windowsHide: true });
+    const child = spawn(command, args, { cwd, stdio: verbose ? 'inherit' : ['ignore', 'pipe', 'pipe'], windowsHide: true });
+    const chunks = [];
+    if (!verbose) {
+      child.stdout.on('data', chunk => chunks.push(chunk));
+      child.stderr.on('data', chunk => chunks.push(chunk));
+    }
     child.on('error', reject);
-    child.on('close', code => resolveRun({ code }));
+    child.on('close', code => resolveRun({ code, output: Buffer.concat(chunks).toString('utf8') }));
   });
 }
 

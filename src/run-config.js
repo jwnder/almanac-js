@@ -7,6 +7,9 @@ export function buildRunConfig(answers, now = new Date()) {
     paperSize: answers.paperSize,
     tableStyle: answers.tableStyle ?? 'traditional',
     keepTex: Boolean(answers.keepTex),
+    keepLog: Boolean(answers.keepLog),
+    verbose: Boolean(answers.verbose),
+    dataPagesOnly: Boolean(answers.dataPagesOnly),
     outputDir: answers.outputDir || 'output'
   };
 

@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Node.js conversion scaffold for Pyalmanac using an Inquirer CLI.",
+  "description": "JavaScript conversion of Pyalmanac with an Inquirer CLI and MiKTeX PDF output.",
   "bin": {
     "alamanac-js": "./src/cli.js"
   },
   "scripts": {
     "start": "node src/cli.js",
-    "check": "node --check src/cli.js",
+    "check": "node scripts/check-syntax.js",
     "pdf": "node src/compile-tex.js",
     "test": "node --test"
   },

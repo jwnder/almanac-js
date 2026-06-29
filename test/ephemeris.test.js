@@ -82,7 +82,7 @@ test('renders Nautical Almanac rows with real Sun/Moon/planet data', async () =>
   const { makeNauticalAlmanacTex } = await import('../src/nautical-tables.js');
   const tex = makeNauticalAlmanacTex({ paperSize: 'A4', tableStyle: 'modern', mode: 'days', startDate: new Date(Date.UTC(2026, 0, 1)), dayCount: 1 });
   assert.ok(tex.includes(String.raw`\color{blue}{0} & 179$^\circ$10.0 & \textcolor{blue}{S}23$^\circ$01.0 && 36$^\circ$44.4`));
-  assert.ok(tex.includes(String.raw`\color{blue}{0} & 100$^\circ$39.7 & 180$^\circ$36.3`));
+  assert.ok(tex.includes(String.raw`\color{blue}{0} & 100$^\circ$39.7 && 180$^\circ$36.3`));
   assert.match(tex, /Venus & 79\$\^\\circ\$56\.6 & 11:58:21/);
   assert.ok(tex.includes('Alpheratz'));
   assert.ok(tex.includes('Markab'));
@@ -96,11 +96,13 @@ test('renders Nautical Almanac rows with real Sun/Moon/planet data', async () =>
 test('renders Nautical Almanac grouped pages and style-specific layout', async () => {
   const { makeNauticalAlmanacTex } = await import('../src/nautical-tables.js');
   const tex = makeNauticalAlmanacTex({ paperSize: 'Letter', tableStyle: 'modern', mode: 'days', startDate: new Date(Date.UTC(2026, 0, 1)), dayCount: 3 });
-  assert.match(tex, /\\documentclass\[10pt, letterpaper\]/);
-  assert.match(tex, /\\section\*\{Modern Nautical Almanac\}/);
-  assert.match(tex, /\\renewcommand\{\\familydefault\}\{\\sfdefault\}/);
+  assert.ok(tex.includes(String.raw`\documentclass[10pt, twoside, letterpaper]{report}`));
+  assert.ok(tex.includes(String.raw`\pagestyle{frontpage}`));
+  assert.ok(tex.includes(String.raw`\pagestyle{datapage}`));
+  assert.ok(tex.includes(String.raw`\newgeometry{nomarginpar, top=9.4mm, bottom=8mm, outer=12.5mm, inner=12.5mm`));
+  assert.ok(tex.includes(String.raw`\fancyhead[LE]{\quad\textsf{\textbf{January 01, 02, 03   (Thu.,  Fri.,  Sat.)}}}`));
+  assert.ok(tex.includes(String.raw`\fancyhead[RO]{\textsf{\textbf{2026 January 01 to Jan. 03}}}`));
   assert.equal((tex.match(/\\newpage/g) ?? []).length, 0);
-  assert.match(tex, /2026 January 01 to Jan\. 03 \(Thu, Fri, Sat\)/);
   assert.ok(tex.includes(String.raw`\definecolor{LightCyan}`));
   assert.ok(tex.includes(String.raw`\rowcolor{LightCyan}`));
 });
@@ -116,6 +118,10 @@ test('calculates navigational star SHA and Dec from the Pyalmanac catalog', asyn
   assert.equal(sirius.sha, '258$^\\circ$25.5');
   assert.equal(sirius.dec, '-16$^\\circ$45.1');
 });
+
+
+
+
 
 
 
