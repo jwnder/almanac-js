@@ -1,0 +1,23 @@
+{
+  "name": "alamanac-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js conversion scaffold for Pyalmanac using an Inquirer CLI.",
+  "bin": {
+    "alamanac-js": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "check": "node --check src/cli.js",
+    "pdf": "node src/compile-tex.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "inquirer": "^12.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

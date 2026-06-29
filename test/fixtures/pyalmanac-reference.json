@@ -1,0 +1,6711 @@
+{
+  "source": "Original Pyalmanac reference output",
+  "pyalmanacRoot": "D:\\tmp5\\Pyalmanac2",
+  "dates": [
+    {
+      "date": "2026-01-01",
+      "sunMoon": [
+        {
+          "hour": 0,
+          "sunGha": "179$^\\circ$10.0",
+          "sunDec": "-23$^\\circ$01.0",
+          "moonGha": "36$^\\circ$44.5",
+          "moonV": "2.4'",
+          "moonDec": "26$^\\circ$24.2",
+          "moonD": "6.7'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-23:01:02.0",
+          "moonDecRaw": "26:24:13.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 1,
+          "sunGha": "194$^\\circ$09.7",
+          "sunDec": "-23$^\\circ$00.8",
+          "moonGha": "51$^\\circ$05.9",
+          "moonV": "2.3'",
+          "moonDec": "26$^\\circ$30.9",
+          "moonD": "6.5'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-23:00:49.9",
+          "moonDecRaw": "26:30:55.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 2,
+          "sunGha": "209$^\\circ$09.5",
+          "sunDec": "-23$^\\circ$00.6",
+          "moonGha": "65$^\\circ$27.2",
+          "moonV": "2.3'",
+          "moonDec": "26$^\\circ$37.4",
+          "moonD": "6.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-23:00:37.7",
+          "moonDecRaw": "26:37:25.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 3,
+          "sunGha": "224$^\\circ$09.2",
+          "sunDec": "-23$^\\circ$00.4",
+          "moonGha": "79$^\\circ$48.5",
+          "moonV": "2.2'",
+          "moonDec": "26$^\\circ$43.7",
+          "moonD": "6.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-23:00:25.5",
+          "moonDecRaw": "26:43:44.0",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 4,
+          "sunGha": "239$^\\circ$08.9",
+          "sunDec": "-23$^\\circ$00.2",
+          "moonGha": "94$^\\circ$09.7",
+          "moonV": "2.1'",
+          "moonDec": "26$^\\circ$49.8",
+          "moonD": "5.9'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-23:00:13.2",
+          "moonDecRaw": "26:49:50.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 5,
+          "sunGha": "254$^\\circ$08.6",
+          "sunDec": "-23$^\\circ$00.0",
+          "moonGha": "108$^\\circ$30.7",
+          "moonV": "2.0'",
+          "moonDec": "26$^\\circ$55.8",
+          "moonD": "5.7'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-23:00:00.8",
+          "moonDecRaw": "26:55:45.2",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 6,
+          "sunGha": "269$^\\circ$08.3",
+          "sunDec": "-22$^\\circ$59.8",
+          "moonGha": "122$^\\circ$51.7",
+          "moonV": "1.9'",
+          "moonDec": "27$^\\circ$01.5",
+          "moonD": "5.5'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:59:48.5",
+          "moonDecRaw": "27:01:27.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 7,
+          "sunGha": "284$^\\circ$08.0",
+          "sunDec": "-22$^\\circ$59.6",
+          "moonGha": "137$^\\circ$12.6",
+          "moonV": "1.8'",
+          "moonDec": "27$^\\circ$07.0",
+          "moonD": "5.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:59:36.0",
+          "moonDecRaw": "27:06:58.4",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 8,
+          "sunGha": "299$^\\circ$07.7",
+          "sunDec": "-22$^\\circ$59.4",
+          "moonGha": "151$^\\circ$33.5",
+          "moonV": "1.8'",
+          "moonDec": "27$^\\circ$12.3",
+          "moonD": "5.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:59:23.6",
+          "moonDecRaw": "27:12:16.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 9,
+          "sunGha": "314$^\\circ$07.4",
+          "sunDec": "-22$^\\circ$59.2",
+          "moonGha": "165$^\\circ$54.2",
+          "moonV": "1.7'",
+          "moonDec": "27$^\\circ$17.4",
+          "moonD": "4.9'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:59:11.0",
+          "moonDecRaw": "27:17:22.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 10,
+          "sunGha": "329$^\\circ$07.1",
+          "sunDec": "-22$^\\circ$59.0",
+          "moonGha": "180$^\\circ$14.9",
+          "moonV": "1.6'",
+          "moonDec": "27$^\\circ$22.3",
+          "moonD": "4.7'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:58:58.5",
+          "moonDecRaw": "27:22:16.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 11,
+          "sunGha": "344$^\\circ$06.8",
+          "sunDec": "-22$^\\circ$58.8",
+          "moonGha": "194$^\\circ$35.5",
+          "moonV": "1.5'",
+          "moonDec": "27$^\\circ$27.0",
+          "moonD": "4.5'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:58:45.9",
+          "moonDecRaw": "27:26:57.9",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 12,
+          "sunGha": "359$^\\circ$06.5",
+          "sunDec": "-22$^\\circ$58.6",
+          "moonGha": "208$^\\circ$56.0",
+          "moonV": "1.5'",
+          "moonDec": "27$^\\circ$31.4",
+          "moonD": "4.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:58:33.2",
+          "moonDecRaw": "27:31:26.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 13,
+          "sunGha": "14$^\\circ$06.2",
+          "sunDec": "-22$^\\circ$58.3",
+          "moonGha": "223$^\\circ$16.5",
+          "moonV": "1.4'",
+          "moonDec": "27$^\\circ$35.7",
+          "moonD": "4.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:58:20.5",
+          "moonDecRaw": "27:35:43.1",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 14,
+          "sunGha": "29$^\\circ$05.9",
+          "sunDec": "-22$^\\circ$58.1",
+          "moonGha": "237$^\\circ$36.9",
+          "moonV": "1.4'",
+          "moonDec": "27$^\\circ$39.8",
+          "moonD": "3.8'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:58:07.7",
+          "moonDecRaw": "27:39:46.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 15,
+          "sunGha": "44$^\\circ$05.6",
+          "sunDec": "-22$^\\circ$57.9",
+          "moonGha": "251$^\\circ$57.3",
+          "moonV": "1.3'",
+          "moonDec": "27$^\\circ$43.6",
+          "moonD": "3.6'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:57:54.9",
+          "moonDecRaw": "27:43:37.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 16,
+          "sunGha": "59$^\\circ$05.3",
+          "sunDec": "-22$^\\circ$57.7",
+          "moonGha": "266$^\\circ$17.6",
+          "moonV": "1.2'",
+          "moonDec": "27$^\\circ$47.3",
+          "moonD": "3.4'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:57:42.1",
+          "moonDecRaw": "27:47:16.0",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 17,
+          "sunGha": "74$^\\circ$05.1",
+          "sunDec": "-22$^\\circ$57.5",
+          "moonGha": "280$^\\circ$37.8",
+          "moonV": "1.2'",
+          "moonDec": "27$^\\circ$50.7",
+          "moonD": "3.2'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:57:29.2",
+          "moonDecRaw": "27:50:41.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 18,
+          "sunGha": "89$^\\circ$04.8",
+          "sunDec": "-22$^\\circ$57.3",
+          "moonGha": "294$^\\circ$58.0",
+          "moonV": "1.2'",
+          "moonDec": "27$^\\circ$53.9",
+          "moonD": "3.0'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:57:16.2",
+          "moonDecRaw": "27:53:54.1",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 19,
+          "sunGha": "104$^\\circ$04.5",
+          "sunDec": "-22$^\\circ$57.1",
+          "moonGha": "309$^\\circ$18.2",
+          "moonV": "1.1'",
+          "moonDec": "27$^\\circ$56.9",
+          "moonD": "2.8'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:57:03.2",
+          "moonDecRaw": "27:56:53.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 20,
+          "sunGha": "119$^\\circ$04.2",
+          "sunDec": "-22$^\\circ$56.8",
+          "moonGha": "323$^\\circ$38.3",
+          "moonV": "1.1'",
+          "moonDec": "27$^\\circ$59.7",
+          "moonD": "2.6'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:56:50.2",
+          "moonDecRaw": "27:59:40.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 21,
+          "sunGha": "134$^\\circ$03.9",
+          "sunDec": "-22$^\\circ$56.6",
+          "moonGha": "337$^\\circ$58.4",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$02.2",
+          "moonD": "2.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:56:37.1",
+          "moonDecRaw": "28:02:14.2",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 22,
+          "sunGha": "149$^\\circ$03.6",
+          "sunDec": "-22$^\\circ$56.4",
+          "moonGha": "352$^\\circ$18.4",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$04.6",
+          "moonD": "2.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:56:23.9",
+          "moonDecRaw": "28:04:34.9",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 23,
+          "sunGha": "164$^\\circ$03.3",
+          "sunDec": "-22$^\\circ$56.2",
+          "moonGha": "6$^\\circ$38.4",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$06.7",
+          "moonD": "1.9'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:56:10.8",
+          "moonDecRaw": "28:06:42.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        }
+      ],
+      "planets": [
+        {
+          "hour": 0,
+          "aries": "100$^\\circ$39.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "180$^\\circ$36.3",
+              "dec": "-23$^\\circ$37.3",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "176$^\\circ$46.9",
+              "dec": "-23$^\\circ$43.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "347$^\\circ$32.3",
+              "dec": "21$^\\circ$58.7",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "103$^\\circ$16.9",
+              "dec": "-03$^\\circ$35.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 1,
+          "aries": "115$^\\circ$42.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "195$^\\circ$35.4",
+              "dec": "-23$^\\circ$37.2",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "191$^\\circ$47.3",
+              "dec": "-23$^\\circ$43.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "2$^\\circ$35.1",
+              "dec": "21$^\\circ$58.8",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "118$^\\circ$19.2",
+              "dec": "-03$^\\circ$35.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 2,
+          "aries": "130$^\\circ$44.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "210$^\\circ$34.4",
+              "dec": "-23$^\\circ$37.1",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "206$^\\circ$47.7",
+              "dec": "-23$^\\circ$42.9",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "17$^\\circ$37.9",
+              "dec": "21$^\\circ$58.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "133$^\\circ$21.5",
+              "dec": "-03$^\\circ$35.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 3,
+          "aries": "145$^\\circ$47.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "225$^\\circ$33.4",
+              "dec": "-23$^\\circ$37.0",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "221$^\\circ$48.1",
+              "dec": "-23$^\\circ$42.7",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "32$^\\circ$40.7",
+              "dec": "21$^\\circ$58.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "148$^\\circ$23.9",
+              "dec": "-03$^\\circ$35.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 4,
+          "aries": "160$^\\circ$49.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "240$^\\circ$32.5",
+              "dec": "-23$^\\circ$36.8",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "236$^\\circ$48.5",
+              "dec": "-23$^\\circ$42.5",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "47$^\\circ$43.5",
+              "dec": "21$^\\circ$59.0",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "163$^\\circ$26.2",
+              "dec": "-03$^\\circ$35.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 5,
+          "aries": "175$^\\circ$52.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "255$^\\circ$31.5",
+              "dec": "-23$^\\circ$36.7",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "251$^\\circ$48.8",
+              "dec": "-23$^\\circ$42.4",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "62$^\\circ$46.3",
+              "dec": "21$^\\circ$59.0",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "178$^\\circ$28.5",
+              "dec": "-03$^\\circ$35.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 6,
+          "aries": "190$^\\circ$54.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "270$^\\circ$30.5",
+              "dec": "-23$^\\circ$36.6",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "266$^\\circ$49.2",
+              "dec": "-23$^\\circ$42.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "77$^\\circ$49.1",
+              "dec": "21$^\\circ$59.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "193$^\\circ$30.9",
+              "dec": "-03$^\\circ$35.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 7,
+          "aries": "205$^\\circ$57.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "285$^\\circ$29.6",
+              "dec": "-23$^\\circ$36.4",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "281$^\\circ$49.6",
+              "dec": "-23$^\\circ$42.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "92$^\\circ$52.0",
+              "dec": "21$^\\circ$59.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "208$^\\circ$33.2",
+              "dec": "-03$^\\circ$35.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 8,
+          "aries": "220$^\\circ$59.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "300$^\\circ$28.6",
+              "dec": "-23$^\\circ$36.3",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "296$^\\circ$50.0",
+              "dec": "-23$^\\circ$41.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "107$^\\circ$54.8",
+              "dec": "21$^\\circ$59.2",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "223$^\\circ$35.5",
+              "dec": "-03$^\\circ$35.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "aries": "236$^\\circ$01.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "315$^\\circ$27.6",
+              "dec": "-23$^\\circ$36.2",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "311$^\\circ$50.4",
+              "dec": "-23$^\\circ$41.7",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "122$^\\circ$57.6",
+              "dec": "21$^\\circ$59.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "238$^\\circ$37.9",
+              "dec": "-03$^\\circ$35.2",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "aries": "251$^\\circ$04.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "330$^\\circ$26.7",
+              "dec": "-23$^\\circ$36.0",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "326$^\\circ$50.7",
+              "dec": "-23$^\\circ$41.5",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "138$^\\circ$00.4",
+              "dec": "21$^\\circ$59.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "253$^\\circ$40.2",
+              "dec": "-03$^\\circ$35.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "aries": "266$^\\circ$06.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "345$^\\circ$25.7",
+              "dec": "-23$^\\circ$35.9",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "341$^\\circ$51.1",
+              "dec": "-23$^\\circ$41.3",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "153$^\\circ$03.2",
+              "dec": "21$^\\circ$59.4",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "268$^\\circ$42.5",
+              "dec": "-03$^\\circ$35.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "aries": "281$^\\circ$09.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "0$^\\circ$24.7",
+              "dec": "-23$^\\circ$35.7",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "356$^\\circ$51.5",
+              "dec": "-23$^\\circ$41.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "168$^\\circ$06.0",
+              "dec": "21$^\\circ$59.4",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "283$^\\circ$44.9",
+              "dec": "-03$^\\circ$35.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "aries": "296$^\\circ$11.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "15$^\\circ$23.8",
+              "dec": "-23$^\\circ$35.6",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "11$^\\circ$51.9",
+              "dec": "-23$^\\circ$41.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "183$^\\circ$08.8",
+              "dec": "21$^\\circ$59.5",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "298$^\\circ$47.2",
+              "dec": "-03$^\\circ$34.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "aries": "311$^\\circ$14.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "30$^\\circ$22.8",
+              "dec": "-23$^\\circ$35.5",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "26$^\\circ$52.3",
+              "dec": "-23$^\\circ$40.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "198$^\\circ$11.6",
+              "dec": "21$^\\circ$59.5",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "313$^\\circ$49.5",
+              "dec": "-03$^\\circ$34.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "aries": "326$^\\circ$16.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "45$^\\circ$21.8",
+              "dec": "-23$^\\circ$35.3",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "41$^\\circ$52.6",
+              "dec": "-23$^\\circ$40.6",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "213$^\\circ$14.4",
+              "dec": "21$^\\circ$59.6",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "328$^\\circ$51.9",
+              "dec": "-03$^\\circ$34.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "aries": "341$^\\circ$19.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "60$^\\circ$20.9",
+              "dec": "-23$^\\circ$35.2",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "56$^\\circ$53.0",
+              "dec": "-23$^\\circ$40.5",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "228$^\\circ$17.3",
+              "dec": "21$^\\circ$59.7",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "343$^\\circ$54.2",
+              "dec": "-03$^\\circ$34.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 17,
+          "aries": "356$^\\circ$21.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "75$^\\circ$19.9",
+              "dec": "-23$^\\circ$35.0",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "71$^\\circ$53.4",
+              "dec": "-23$^\\circ$40.3",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "243$^\\circ$20.1",
+              "dec": "21$^\\circ$59.7",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "358$^\\circ$56.5",
+              "dec": "-03$^\\circ$34.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 18,
+          "aries": "11$^\\circ$24.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "90$^\\circ$18.9",
+              "dec": "-23$^\\circ$34.9",
+              "v": "-1.0",
+              "d": "0.1",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "86$^\\circ$53.8",
+              "dec": "-23$^\\circ$40.1",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "258$^\\circ$22.9",
+              "dec": "21$^\\circ$59.8",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "13$^\\circ$58.9",
+              "dec": "-03$^\\circ$34.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 19,
+          "aries": "26$^\\circ$26.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "105$^\\circ$18.0",
+              "dec": "-23$^\\circ$34.7",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "101$^\\circ$54.2",
+              "dec": "-23$^\\circ$39.9",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "273$^\\circ$25.7",
+              "dec": "21$^\\circ$59.8",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "29$^\\circ$01.2",
+              "dec": "-03$^\\circ$34.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 20,
+          "aries": "41$^\\circ$29.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "120$^\\circ$17.0",
+              "dec": "-23$^\\circ$34.6",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "116$^\\circ$54.5",
+              "dec": "-23$^\\circ$39.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "288$^\\circ$28.5",
+              "dec": "21$^\\circ$59.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "44$^\\circ$03.5",
+              "dec": "-03$^\\circ$34.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 21,
+          "aries": "56$^\\circ$31.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "135$^\\circ$16.0",
+              "dec": "-23$^\\circ$34.4",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "131$^\\circ$54.9",
+              "dec": "-23$^\\circ$39.6",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "303$^\\circ$31.3",
+              "dec": "21$^\\circ$59.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "59$^\\circ$05.8",
+              "dec": "-03$^\\circ$34.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 22,
+          "aries": "71$^\\circ$33.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "150$^\\circ$15.1",
+              "dec": "-23$^\\circ$34.3",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "146$^\\circ$55.3",
+              "dec": "-23$^\\circ$39.4",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "318$^\\circ$34.1",
+              "dec": "22$^\\circ$00.0",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "74$^\\circ$08.2",
+              "dec": "-03$^\\circ$34.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 23,
+          "aries": "86$^\\circ$36.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "165$^\\circ$14.1",
+              "dec": "-23$^\\circ$34.1",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "161$^\\circ$55.7",
+              "dec": "-23$^\\circ$39.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "333$^\\circ$37.0",
+              "dec": "22$^\\circ$00.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "89$^\\circ$10.5",
+              "dec": "-03$^\\circ$34.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "latitude": 72,
+          "hemisphere": "N",
+          "nauticalDawn": "08:23:53",
+          "civilDawn": "10:42:20",
+          "sunrise": "\\rule{12Pt}{4Pt}",
+          "sunTransit": "12:03:34",
+          "sunset": "\\rule{12Pt}{4Pt}",
+          "civilDusk": "13:25:11",
+          "nauticalDusk": "15:43:40",
+          "moonrise": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "moonset": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 40,
+          "hemisphere": "N",
+          "nauticalDawn": "06:17:31",
+          "civilDawn": "06:51:28",
+          "sunrise": "07:21:51",
+          "sunTransit": "12:03:34",
+          "sunset": "16:45:25",
+          "civilDusk": "17:15:49",
+          "nauticalDusk": "17:49:45",
+          "moonrise": "14:27:20",
+          "moonset": "05:27:09",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 0,
+          "hemisphere": "N",
+          "nauticalDawn": "05:11:14",
+          "civilDawn": "05:37:22",
+          "sunrise": "05:59:49",
+          "sunTransit": "12:03:34",
+          "sunset": "18:07:19",
+          "civilDusk": "18:29:45",
+          "nauticalDusk": "18:55:53",
+          "moonrise": "16:16:19",
+          "moonset": "03:41:49",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": -60,
+          "hemisphere": "S",
+          "nauticalDawn": "--:--",
+          "civilDawn": "01:06:07",
+          "sunrise": "02:42:59",
+          "sunTransit": "12:03:34",
+          "sunset": "21:23:19",
+          "civilDusk": "22:58:37",
+          "nauticalDusk": "--:--",
+          "moonrise": "21:01:20",
+          "moonset": "\\raisebox{0.24ex}{\\boldmath$\\cdot\\cdot$~\\boldmath$\\cdot\\cdot$}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        }
+      ],
+      "transits": {
+        "aries": "17:14",
+        "equationOfTime00": "\\colorbox{lightgray!60}{03:20}",
+        "equationOfTime12": "\\colorbox{lightgray!60}{03:34}",
+        "sunTransit": "12:03:34",
+        "moonTransit": "22:32:12",
+        "moonAntiTransit": "09:58:58",
+        "moonAge": 12,
+        "moonIllumination": 91,
+        "planetRows": [
+          {
+            "body": "Venus",
+            "sha": "79$^\\circ$56.6",
+            "transit": "11:58:21",
+            "hp": "0.1"
+          },
+          {
+            "body": "Mars",
+            "sha": "76$^\\circ$07.2",
+            "transit": "12:12:34",
+            "hp": "0.1"
+          },
+          {
+            "body": "Jupiter",
+            "sha": "246$^\\circ$52.5",
+            "transit": "00:49:42"
+          },
+          {
+            "body": "Saturn",
+            "sha": "2$^\\circ$37.1",
+            "transit": "17:04:13"
+          }
+        ]
+      },
+      "stars": [
+        {
+          "name": "Alpheratz",
+          "sha": "357$^\\circ$34.0",
+          "dec": "29$^\\circ$14.2"
+        },
+        {
+          "name": "Ankaa",
+          "sha": "353$^\\circ$06.4",
+          "dec": "-42$^\\circ$10.1"
+        },
+        {
+          "name": "Schedar",
+          "sha": "349$^\\circ$30.1",
+          "dec": "56$^\\circ$41.1"
+        },
+        {
+          "name": "Diphda",
+          "sha": "348$^\\circ$46.5",
+          "dec": "-17$^\\circ$50.7"
+        },
+        {
+          "name": "Achernar",
+          "sha": "335$^\\circ$19.4",
+          "dec": "-57$^\\circ$06.5"
+        },
+        {
+          "name": "Hamal",
+          "sha": "327$^\\circ$50.1",
+          "dec": "23$^\\circ$35.3"
+        },
+        {
+          "name": "Polaris",
+          "sha": "313$^\\circ$17.9",
+          "dec": "89$^\\circ$22.7"
+        },
+        {
+          "name": "Acamar",
+          "sha": "315$^\\circ$10.9",
+          "dec": "-40$^\\circ$12.2"
+        },
+        {
+          "name": "Menkar",
+          "sha": "314$^\\circ$05.1",
+          "dec": "4$^\\circ$11.5"
+        },
+        {
+          "name": "Mirfak",
+          "sha": "308$^\\circ$26.7",
+          "dec": "49$^\\circ$57.4"
+        },
+        {
+          "name": "Aldebaran",
+          "sha": "290$^\\circ$38.4",
+          "dec": "16$^\\circ$33.7"
+        },
+        {
+          "name": "Rigel",
+          "sha": "281$^\\circ$02.8",
+          "dec": "-8$^\\circ$10.3"
+        },
+        {
+          "name": "Capella",
+          "sha": "280$^\\circ$20.2",
+          "dec": "46$^\\circ$01.5"
+        },
+        {
+          "name": "Bellatrix",
+          "sha": "278$^\\circ$21.7",
+          "dec": "6$^\\circ$22.4"
+        },
+        {
+          "name": "Elnath",
+          "sha": "278$^\\circ$00.5",
+          "dec": "28$^\\circ$37.8"
+        },
+        {
+          "name": "Alnilam",
+          "sha": "275$^\\circ$36.6",
+          "dec": "-1$^\\circ$11.1"
+        },
+        {
+          "name": "Betelgeuse",
+          "sha": "270$^\\circ$50.9",
+          "dec": "7$^\\circ$24.7"
+        },
+        {
+          "name": "Canopus",
+          "sha": "263$^\\circ$51.5",
+          "dec": "-52$^\\circ$42.5"
+        },
+        {
+          "name": "Sirius",
+          "sha": "258$^\\circ$25.2",
+          "dec": "-16$^\\circ$45.1"
+        },
+        {
+          "name": "Adhara",
+          "sha": "255$^\\circ$04.8",
+          "dec": "-29$^\\circ$00.4"
+        },
+        {
+          "name": "Procyon",
+          "sha": "244$^\\circ$49.7",
+          "dec": "5$^\\circ$09.5"
+        },
+        {
+          "name": "Pollux",
+          "sha": "243$^\\circ$15.9",
+          "dec": "27$^\\circ$57.7"
+        },
+        {
+          "name": "Avior",
+          "sha": "234$^\\circ$13.8",
+          "dec": "-59$^\\circ$35.4"
+        },
+        {
+          "name": "Suhail",
+          "sha": "222$^\\circ$45.4",
+          "dec": "-43$^\\circ$32.1"
+        },
+        {
+          "name": "Miaplacidus",
+          "sha": "221$^\\circ$37.4",
+          "dec": "-69$^\\circ$49.2"
+        },
+        {
+          "name": "Alphard",
+          "sha": "217$^\\circ$46.7",
+          "dec": "-8$^\\circ$46.3"
+        },
+        {
+          "name": "Regulus",
+          "sha": "207$^\\circ$33.4",
+          "dec": "11$^\\circ$50.3"
+        },
+        {
+          "name": "Dubhe",
+          "sha": "193$^\\circ$39.7",
+          "dec": "61$^\\circ$36.3"
+        },
+        {
+          "name": "Denebola",
+          "sha": "182$^\\circ$24.0",
+          "dec": "14$^\\circ$25.5"
+        },
+        {
+          "name": "Gienah",
+          "sha": "175$^\\circ$42.7",
+          "dec": "-17$^\\circ$41.1"
+        },
+        {
+          "name": "Acrux",
+          "sha": "172$^\\circ$59.2",
+          "dec": "-63$^\\circ$14.3"
+        },
+        {
+          "name": "Gacrux",
+          "sha": "171$^\\circ$50.7",
+          "dec": "-57$^\\circ$15.3"
+        },
+        {
+          "name": "Alioth",
+          "sha": "166$^\\circ$12.3",
+          "dec": "55$^\\circ$48.8"
+        },
+        {
+          "name": "Spica",
+          "sha": "158$^\\circ$21.5",
+          "dec": "-11$^\\circ$17.8"
+        },
+        {
+          "name": "Alkaid",
+          "sha": "152$^\\circ$51.5",
+          "dec": "49$^\\circ$10.7"
+        },
+        {
+          "name": "Hadar",
+          "sha": "148$^\\circ$35.1",
+          "dec": "-60$^\\circ$29.7"
+        },
+        {
+          "name": "Menkent",
+          "sha": "147$^\\circ$56.8",
+          "dec": "-36$^\\circ$29.7"
+        },
+        {
+          "name": "Arcturus",
+          "sha": "145$^\\circ$47.3",
+          "dec": "19$^\\circ$02.7"
+        },
+        {
+          "name": "Rigil Kent.",
+          "sha": "139$^\\circ$39.5",
+          "dec": "-60$^\\circ$56.3"
+        },
+        {
+          "name": "Kochab",
+          "sha": "137$^\\circ$20.5",
+          "dec": "74$^\\circ$02.5"
+        },
+        {
+          "name": "Zuben'ubi",
+          "sha": "136$^\\circ$55.3",
+          "dec": "-16$^\\circ$09.0"
+        },
+        {
+          "name": "Alphecca",
+          "sha": "126$^\\circ$03.3",
+          "dec": "26$^\\circ$37.5"
+        },
+        {
+          "name": "Antares",
+          "sha": "112$^\\circ$15.2",
+          "dec": "-26$^\\circ$29.3"
+        },
+        {
+          "name": "Atria",
+          "sha": "107$^\\circ$09.2",
+          "dec": "-69$^\\circ$04.3"
+        },
+        {
+          "name": "Sabik",
+          "sha": "102$^\\circ$02.2",
+          "dec": "-15$^\\circ$45.4"
+        },
+        {
+          "name": "Shaula",
+          "sha": "96$^\\circ$09.7",
+          "dec": "-37$^\\circ$07.3"
+        },
+        {
+          "name": "Rasalhague",
+          "sha": "95$^\\circ$58.1",
+          "dec": "12$^\\circ$32.4"
+        },
+        {
+          "name": "Eltanin",
+          "sha": "90$^\\circ$42.3",
+          "dec": "51$^\\circ$29.0"
+        },
+        {
+          "name": "Kaus Aust.",
+          "sha": "83$^\\circ$31.8",
+          "dec": "-34$^\\circ$22.3"
+        },
+        {
+          "name": "Vega",
+          "sha": "80$^\\circ$33.1",
+          "dec": "38$^\\circ$48.4"
+        },
+        {
+          "name": "Nunki",
+          "sha": "75$^\\circ$47.1",
+          "dec": "-26$^\\circ$15.9"
+        },
+        {
+          "name": "Altair",
+          "sha": "61$^\\circ$59.5",
+          "dec": "8$^\\circ$56.2"
+        },
+        {
+          "name": "Peacock",
+          "sha": "53$^\\circ$05.0",
+          "dec": "-56$^\\circ$39.2"
+        },
+        {
+          "name": "Deneb",
+          "sha": "49$^\\circ$25.7",
+          "dec": "45$^\\circ$22.5"
+        },
+        {
+          "name": "Enif",
+          "sha": "33$^\\circ$38.2",
+          "dec": "9$^\\circ$59.7"
+        },
+        {
+          "name": "Al Na'ir",
+          "sha": "27$^\\circ$32.2",
+          "dec": "-46$^\\circ$50.3"
+        },
+        {
+          "name": "Fomalhaut",
+          "sha": "15$^\\circ$13.8",
+          "dec": "-29$^\\circ$29.2"
+        },
+        {
+          "name": "Scheat",
+          "sha": "13$^\\circ$44.6",
+          "dec": "28$^\\circ$13.6"
+        },
+        {
+          "name": "Markab",
+          "sha": "13$^\\circ$29.2",
+          "dec": "15$^\\circ$20.8"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "sunMoon": [
+        {
+          "hour": 0,
+          "sunGha": "179$^\\circ$03.0",
+          "sunDec": "-22$^\\circ$56.0",
+          "moonGha": "20$^\\circ$58.4",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$08.6",
+          "moonD": "1.7'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:55:57.5",
+          "moonDecRaw": "28:08:37.0",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 1,
+          "sunGha": "194$^\\circ$02.7",
+          "sunDec": "-22$^\\circ$55.7",
+          "moonGha": "35$^\\circ$18.3",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$10.3",
+          "moonD": "1.5'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:55:44.2",
+          "moonDecRaw": "28:10:18.4",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 2,
+          "sunGha": "209$^\\circ$02.4",
+          "sunDec": "-22$^\\circ$55.5",
+          "moonGha": "49$^\\circ$38.3",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$11.8",
+          "moonD": "1.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:55:30.9",
+          "moonDecRaw": "28:11:46.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 3,
+          "sunGha": "224$^\\circ$02.1",
+          "sunDec": "-22$^\\circ$55.3",
+          "moonGha": "63$^\\circ$58.2",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$13.0",
+          "moonD": "1.0'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:55:17.5",
+          "moonDecRaw": "28:13:01.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 4,
+          "sunGha": "239$^\\circ$01.9",
+          "sunDec": "-22$^\\circ$55.1",
+          "moonGha": "78$^\\circ$18.1",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$14.1",
+          "moonD": "0.8'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:55:04.1",
+          "moonDecRaw": "28:14:03.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 5,
+          "sunGha": "254$^\\circ$01.6",
+          "sunDec": "-22$^\\circ$54.8",
+          "moonGha": "92$^\\circ$38.0",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$14.9",
+          "moonD": "0.6'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:54:50.6",
+          "moonDecRaw": "28:14:52.1",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 6,
+          "sunGha": "269$^\\circ$01.3",
+          "sunDec": "-22$^\\circ$54.6",
+          "moonGha": "106$^\\circ$57.9",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$15.5",
+          "moonD": "0.4'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:54:37.1",
+          "moonDecRaw": "28:15:27.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 7,
+          "sunGha": "284$^\\circ$01.0",
+          "sunDec": "-22$^\\circ$54.4",
+          "moonGha": "121$^\\circ$17.8",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$15.8",
+          "moonD": "0.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:54:23.6",
+          "moonDecRaw": "28:15:49.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 8,
+          "sunGha": "299$^\\circ$00.7",
+          "sunDec": "-22$^\\circ$54.2",
+          "moonGha": "135$^\\circ$37.7",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$16.0",
+          "moonD": "-0.1'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:54:09.9",
+          "moonDecRaw": "28:15:58.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 9,
+          "sunGha": "314$^\\circ$00.4",
+          "sunDec": "-22$^\\circ$53.9",
+          "moonGha": "149$^\\circ$57.5",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$15.9",
+          "moonD": "-0.3'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:53:56.3",
+          "moonDecRaw": "28:15:54.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 10,
+          "sunGha": "329$^\\circ$00.1",
+          "sunDec": "-22$^\\circ$53.7",
+          "moonGha": "164$^\\circ$17.4",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$15.6",
+          "moonD": "-0.5'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:53:42.6",
+          "moonDecRaw": "28:15:37.0",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 11,
+          "sunGha": "343$^\\circ$59.8",
+          "sunDec": "-22$^\\circ$53.5",
+          "moonGha": "178$^\\circ$37.4",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$15.1",
+          "moonD": "-0.7'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:53:28.8",
+          "moonDecRaw": "28:15:06.4",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 12,
+          "sunGha": "358$^\\circ$59.5",
+          "sunDec": "-22$^\\circ$53.3",
+          "moonGha": "192$^\\circ$57.3",
+          "moonV": "0.9'",
+          "moonDec": "28$^\\circ$14.4",
+          "moonD": "-1.0'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:53:15.0",
+          "moonDecRaw": "28:14:22.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 13,
+          "sunGha": "13$^\\circ$59.2",
+          "sunDec": "-22$^\\circ$53.0",
+          "moonGha": "207$^\\circ$17.2",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$13.4",
+          "moonD": "-1.2'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:53:01.2",
+          "moonDecRaw": "28:13:25.5",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 14,
+          "sunGha": "28$^\\circ$59.0",
+          "sunDec": "-22$^\\circ$52.8",
+          "moonGha": "221$^\\circ$37.2",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$12.3",
+          "moonD": "-1.4'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:52:47.3",
+          "moonDecRaw": "28:12:15.3",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 15,
+          "sunGha": "43$^\\circ$58.7",
+          "sunDec": "-22$^\\circ$52.6",
+          "moonGha": "235$^\\circ$57.2",
+          "moonV": "1.0'",
+          "moonDec": "28$^\\circ$10.9",
+          "moonD": "-1.6'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:52:33.3",
+          "moonDecRaw": "28:10:52.0",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 16,
+          "sunGha": "58$^\\circ$58.4",
+          "sunDec": "-22$^\\circ$52.3",
+          "moonGha": "250$^\\circ$17.2",
+          "moonV": "1.1'",
+          "moonDec": "28$^\\circ$09.3",
+          "moonD": "-1.8'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:52:19.3",
+          "moonDecRaw": "28:09:15.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 17,
+          "sunGha": "73$^\\circ$58.1",
+          "sunDec": "-22$^\\circ$52.1",
+          "moonGha": "264$^\\circ$37.3",
+          "moonV": "1.1'",
+          "moonDec": "28$^\\circ$07.4",
+          "moonD": "-2.0'",
+          "moonHp": "60.8'",
+          "sunDecRaw": "-22:52:05.3",
+          "moonDecRaw": "28:07:26.2",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 18,
+          "sunGha": "88$^\\circ$57.8",
+          "sunDec": "-22$^\\circ$51.9",
+          "moonGha": "278$^\\circ$57.4",
+          "moonV": "1.1'",
+          "moonDec": "28$^\\circ$05.4",
+          "moonD": "-2.3'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:51:51.2",
+          "moonDecRaw": "28:05:23.8",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 19,
+          "sunGha": "103$^\\circ$57.5",
+          "sunDec": "-22$^\\circ$51.6",
+          "moonGha": "293$^\\circ$17.6",
+          "moonV": "1.2'",
+          "moonDec": "28$^\\circ$03.1",
+          "moonD": "-2.5'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:51:37.1",
+          "moonDecRaw": "28:03:08.3",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 20,
+          "sunGha": "118$^\\circ$57.2",
+          "sunDec": "-22$^\\circ$51.4",
+          "moonGha": "307$^\\circ$37.7",
+          "moonV": "1.2'",
+          "moonDec": "28$^\\circ$00.7",
+          "moonD": "-2.7'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:51:22.9",
+          "moonDecRaw": "28:00:39.9",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 21,
+          "sunGha": "133$^\\circ$56.9",
+          "sunDec": "-22$^\\circ$51.1",
+          "moonGha": "321$^\\circ$58.0",
+          "moonV": "1.3'",
+          "moonDec": "27$^\\circ$58.0",
+          "moonD": "-2.9'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:51:08.7",
+          "moonDecRaw": "27:57:58.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 22,
+          "sunGha": "148$^\\circ$56.6",
+          "sunDec": "-22$^\\circ$50.9",
+          "moonGha": "336$^\\circ$18.3",
+          "moonV": "1.3'",
+          "moonDec": "27$^\\circ$55.1",
+          "moonD": "-3.1'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:50:54.4",
+          "moonDecRaw": "27:55:04.6",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        },
+        {
+          "hour": 23,
+          "sunGha": "163$^\\circ$56.4",
+          "sunDec": "-22$^\\circ$50.7",
+          "moonGha": "350$^\\circ$38.6",
+          "moonV": "1.4'",
+          "moonDec": "27$^\\circ$52.0",
+          "moonD": "-3.3'",
+          "moonHp": "60.7'",
+          "sunDecRaw": "-22:50:40.1",
+          "moonDecRaw": "27:51:57.7",
+          "sunDecChange": "0.2",
+          "sunSd": "16.3",
+          "moonSd": "16.6"
+        }
+      ],
+      "planets": [
+        {
+          "hour": 0,
+          "aries": "101$^\\circ$38.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "180$^\\circ$13.1",
+              "dec": "-23$^\\circ$34.0",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "176$^\\circ$56.1",
+              "dec": "-23$^\\circ$39.1",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "348$^\\circ$39.8",
+              "dec": "22$^\\circ$00.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "104$^\\circ$12.8",
+              "dec": "-03$^\\circ$34.2",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 1,
+          "aries": "116$^\\circ$41.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "195$^\\circ$12.2",
+              "dec": "-23$^\\circ$33.8",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "191$^\\circ$56.4",
+              "dec": "-23$^\\circ$38.9",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "3$^\\circ$42.6",
+              "dec": "22$^\\circ$00.2",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "119$^\\circ$15.2",
+              "dec": "-03$^\\circ$34.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 2,
+          "aries": "131$^\\circ$43.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "210$^\\circ$11.2",
+              "dec": "-23$^\\circ$33.7",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "206$^\\circ$56.8",
+              "dec": "-23$^\\circ$38.7",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "18$^\\circ$45.4",
+              "dec": "22$^\\circ$00.2",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "134$^\\circ$17.5",
+              "dec": "-03$^\\circ$34.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 3,
+          "aries": "146$^\\circ$46.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "225$^\\circ$10.2",
+              "dec": "-23$^\\circ$33.5",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "221$^\\circ$57.2",
+              "dec": "-23$^\\circ$38.5",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "33$^\\circ$48.2",
+              "dec": "22$^\\circ$00.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "149$^\\circ$19.8",
+              "dec": "-03$^\\circ$34.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 4,
+          "aries": "161$^\\circ$48.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "240$^\\circ$09.3",
+              "dec": "-23$^\\circ$33.3",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "236$^\\circ$57.6",
+              "dec": "-23$^\\circ$38.3",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "48$^\\circ$51.0",
+              "dec": "22$^\\circ$00.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "164$^\\circ$22.2",
+              "dec": "-03$^\\circ$33.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 5,
+          "aries": "176$^\\circ$51.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "255$^\\circ$08.3",
+              "dec": "-23$^\\circ$33.2",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "251$^\\circ$58.0",
+              "dec": "-23$^\\circ$38.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "63$^\\circ$53.8",
+              "dec": "22$^\\circ$00.4",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "179$^\\circ$24.5",
+              "dec": "-03$^\\circ$33.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 6,
+          "aries": "191$^\\circ$53.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "270$^\\circ$07.4",
+              "dec": "-23$^\\circ$33.0",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "266$^\\circ$58.3",
+              "dec": "-23$^\\circ$38.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "78$^\\circ$56.6",
+              "dec": "22$^\\circ$00.5",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "194$^\\circ$26.8",
+              "dec": "-03$^\\circ$33.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 7,
+          "aries": "206$^\\circ$56.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "285$^\\circ$06.4",
+              "dec": "-23$^\\circ$32.8",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "281$^\\circ$58.7",
+              "dec": "-23$^\\circ$37.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "93$^\\circ$59.5",
+              "dec": "22$^\\circ$00.5",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "209$^\\circ$29.1",
+              "dec": "-03$^\\circ$33.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 8,
+          "aries": "221$^\\circ$58.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "300$^\\circ$05.4",
+              "dec": "-23$^\\circ$32.7",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "296$^\\circ$59.1",
+              "dec": "-23$^\\circ$37.6",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "109$^\\circ$02.3",
+              "dec": "22$^\\circ$00.6",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "224$^\\circ$31.5",
+              "dec": "-03$^\\circ$33.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "aries": "237$^\\circ$01.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "315$^\\circ$04.5",
+              "dec": "-23$^\\circ$32.5",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "311$^\\circ$59.5",
+              "dec": "-23$^\\circ$37.4",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "124$^\\circ$05.1",
+              "dec": "22$^\\circ$00.6",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "239$^\\circ$33.8",
+              "dec": "-03$^\\circ$33.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "aries": "252$^\\circ$03.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "330$^\\circ$03.5",
+              "dec": "-23$^\\circ$32.3",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "326$^\\circ$59.9",
+              "dec": "-23$^\\circ$37.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "139$^\\circ$07.9",
+              "dec": "22$^\\circ$00.7",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "254$^\\circ$36.1",
+              "dec": "-03$^\\circ$33.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "aries": "267$^\\circ$06.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "345$^\\circ$02.5",
+              "dec": "-23$^\\circ$32.2",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "342$^\\circ$00.2",
+              "dec": "-23$^\\circ$37.1",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "154$^\\circ$10.7",
+              "dec": "22$^\\circ$00.7",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "269$^\\circ$38.5",
+              "dec": "-03$^\\circ$33.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "aries": "282$^\\circ$08.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "0$^\\circ$01.6",
+              "dec": "-23$^\\circ$32.0",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "357$^\\circ$00.6",
+              "dec": "-23$^\\circ$36.9",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "169$^\\circ$13.5",
+              "dec": "22$^\\circ$00.8",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "284$^\\circ$40.8",
+              "dec": "-03$^\\circ$33.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "aries": "297$^\\circ$10.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "15$^\\circ$00.6",
+              "dec": "-23$^\\circ$31.8",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "12$^\\circ$01.0",
+              "dec": "-23$^\\circ$36.7",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "184$^\\circ$16.3",
+              "dec": "22$^\\circ$00.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "299$^\\circ$43.1",
+              "dec": "-03$^\\circ$33.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "aries": "312$^\\circ$13.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "29$^\\circ$59.7",
+              "dec": "-23$^\\circ$31.7",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "27$^\\circ$01.4",
+              "dec": "-23$^\\circ$36.5",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "199$^\\circ$19.2",
+              "dec": "22$^\\circ$00.9",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "314$^\\circ$45.4",
+              "dec": "-03$^\\circ$33.2",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "aries": "327$^\\circ$15.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "44$^\\circ$58.7",
+              "dec": "-23$^\\circ$31.5",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "42$^\\circ$01.8",
+              "dec": "-23$^\\circ$36.3",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "214$^\\circ$22.0",
+              "dec": "22$^\\circ$01.0",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "329$^\\circ$47.8",
+              "dec": "-03$^\\circ$33.2",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "aries": "342$^\\circ$18.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "59$^\\circ$57.7",
+              "dec": "-23$^\\circ$31.3",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "57$^\\circ$02.1",
+              "dec": "-23$^\\circ$36.1",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "229$^\\circ$24.8",
+              "dec": "22$^\\circ$01.0",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "344$^\\circ$50.1",
+              "dec": "-03$^\\circ$33.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 17,
+          "aries": "357$^\\circ$20.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "74$^\\circ$56.8",
+              "dec": "-23$^\\circ$31.1",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "72$^\\circ$02.5",
+              "dec": "-23$^\\circ$36.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "244$^\\circ$27.6",
+              "dec": "22$^\\circ$01.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "359$^\\circ$52.4",
+              "dec": "-03$^\\circ$33.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 18,
+          "aries": "12$^\\circ$23.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "89$^\\circ$55.8",
+              "dec": "-23$^\\circ$31.0",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "87$^\\circ$02.9",
+              "dec": "-23$^\\circ$35.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "259$^\\circ$30.4",
+              "dec": "22$^\\circ$01.1",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "14$^\\circ$54.7",
+              "dec": "-03$^\\circ$33.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 19,
+          "aries": "27$^\\circ$25.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "104$^\\circ$54.8",
+              "dec": "-23$^\\circ$30.8",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "102$^\\circ$03.3",
+              "dec": "-23$^\\circ$35.6",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "274$^\\circ$33.2",
+              "dec": "22$^\\circ$01.2",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "29$^\\circ$57.1",
+              "dec": "-03$^\\circ$32.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 20,
+          "aries": "42$^\\circ$28.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "119$^\\circ$53.9",
+              "dec": "-23$^\\circ$30.6",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "117$^\\circ$03.7",
+              "dec": "-23$^\\circ$35.4",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "289$^\\circ$36.0",
+              "dec": "22$^\\circ$01.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "44$^\\circ$59.4",
+              "dec": "-03$^\\circ$32.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 21,
+          "aries": "57$^\\circ$30.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "134$^\\circ$52.9",
+              "dec": "-23$^\\circ$30.4",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "132$^\\circ$04.1",
+              "dec": "-23$^\\circ$35.2",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "304$^\\circ$38.9",
+              "dec": "22$^\\circ$01.3",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "60$^\\circ$01.7",
+              "dec": "-03$^\\circ$32.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 22,
+          "aries": "72$^\\circ$33.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "149$^\\circ$52.0",
+              "dec": "-23$^\\circ$30.2",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "147$^\\circ$04.4",
+              "dec": "-23$^\\circ$35.0",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "319$^\\circ$41.7",
+              "dec": "22$^\\circ$01.4",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "75$^\\circ$04.1",
+              "dec": "-03$^\\circ$32.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        },
+        {
+          "hour": 23,
+          "aries": "87$^\\circ$35.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "164$^\\circ$51.0",
+              "dec": "-23$^\\circ$30.1",
+              "v": "-1.0",
+              "d": "0.2",
+              "magnitude": "-3.8"
+            },
+            {
+              "body": "Mars",
+              "gha": "162$^\\circ$04.8",
+              "dec": "-23$^\\circ$34.8",
+              "v": "0.4",
+              "d": "0.2",
+              "magnitude": "1.2"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "334$^\\circ$44.5",
+              "dec": "22$^\\circ$01.4",
+              "v": "2.8",
+              "d": "0.1",
+              "magnitude": "-2.5"
+            },
+            {
+              "body": "Saturn",
+              "gha": "90$^\\circ$06.4",
+              "dec": "-03$^\\circ$32.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "1.2"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "latitude": 72,
+          "hemisphere": "N",
+          "nauticalDawn": "08:22:56",
+          "civilDawn": "10:39:22",
+          "sunrise": "\\rule{12Pt}{4Pt}",
+          "sunTransit": "12:04:02",
+          "sunset": "\\rule{12Pt}{4Pt}",
+          "civilDusk": "13:29:07",
+          "nauticalDusk": "15:45:35",
+          "moonrise": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "moonset": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 40,
+          "hemisphere": "N",
+          "nauticalDawn": "06:17:41",
+          "civilDawn": "06:51:36",
+          "sunrise": "07:21:58",
+          "sunTransit": "12:04:02",
+          "sunset": "16:46:15",
+          "civilDusk": "17:16:37",
+          "nauticalDusk": "17:50:32",
+          "moonrise": "15:31:55",
+          "moonset": "06:40:04",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 0,
+          "hemisphere": "N",
+          "nauticalDawn": "05:11:44",
+          "civilDawn": "05:37:51",
+          "sunrise": "06:00:17",
+          "sunTransit": "12:04:02",
+          "sunset": "18:07:47",
+          "civilDusk": "18:30:12",
+          "nauticalDusk": "18:56:19",
+          "moonrise": "17:23:19",
+          "moonset": "04:48:10",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": -60,
+          "hemisphere": "S",
+          "nauticalDawn": "--:--",
+          "civilDawn": "01:09:13",
+          "sunrise": "02:44:33",
+          "sunTransit": "12:04:02",
+          "sunset": "21:22:37",
+          "civilDusk": "22:56:21",
+          "nauticalDusk": "--:--",
+          "moonrise": "22:05:11",
+          "moonset": "00:00:22",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        }
+      ],
+      "transits": {
+        "aries": "17:10",
+        "equationOfTime00": "\\colorbox{lightgray!60}{03:48}",
+        "equationOfTime12": "\\colorbox{lightgray!60}{04:02}",
+        "sunTransit": "12:04:02",
+        "moonTransit": "23:39:09",
+        "moonAntiTransit": "11:05:46",
+        "moonAge": 13,
+        "moonIllumination": 97,
+        "planetRows": [
+          {
+            "body": "Venus",
+            "sha": "78$^\\circ$34.3",
+            "transit": "11:59:54",
+            "hp": "0.1"
+          },
+          {
+            "body": "Mars",
+            "sha": "75$^\\circ$17.2",
+            "transit": "12:11:57",
+            "hp": "0.1"
+          },
+          {
+            "body": "Jupiter",
+            "sha": "247$^\\circ$00.9",
+            "transit": "00:45:12"
+          },
+          {
+            "body": "Saturn",
+            "sha": "2$^\\circ$34.0",
+            "transit": "17:00:30"
+          }
+        ]
+      },
+      "stars": [
+        {
+          "name": "Alpheratz",
+          "sha": "357$^\\circ$34.0",
+          "dec": "29$^\\circ$14.2"
+        },
+        {
+          "name": "Ankaa",
+          "sha": "353$^\\circ$06.4",
+          "dec": "-42$^\\circ$10.1"
+        },
+        {
+          "name": "Schedar",
+          "sha": "349$^\\circ$30.1",
+          "dec": "56$^\\circ$41.1"
+        },
+        {
+          "name": "Diphda",
+          "sha": "348$^\\circ$46.5",
+          "dec": "-17$^\\circ$50.7"
+        },
+        {
+          "name": "Achernar",
+          "sha": "335$^\\circ$19.4",
+          "dec": "-57$^\\circ$06.5"
+        },
+        {
+          "name": "Hamal",
+          "sha": "327$^\\circ$50.1",
+          "dec": "23$^\\circ$35.3"
+        },
+        {
+          "name": "Polaris",
+          "sha": "313$^\\circ$18.1",
+          "dec": "89$^\\circ$22.7"
+        },
+        {
+          "name": "Acamar",
+          "sha": "315$^\\circ$10.9",
+          "dec": "-40$^\\circ$12.2"
+        },
+        {
+          "name": "Menkar",
+          "sha": "314$^\\circ$05.1",
+          "dec": "4$^\\circ$11.5"
+        },
+        {
+          "name": "Mirfak",
+          "sha": "308$^\\circ$26.7",
+          "dec": "49$^\\circ$57.4"
+        },
+        {
+          "name": "Aldebaran",
+          "sha": "290$^\\circ$38.4",
+          "dec": "16$^\\circ$33.7"
+        },
+        {
+          "name": "Rigel",
+          "sha": "281$^\\circ$02.8",
+          "dec": "-8$^\\circ$10.3"
+        },
+        {
+          "name": "Capella",
+          "sha": "280$^\\circ$20.2",
+          "dec": "46$^\\circ$01.5"
+        },
+        {
+          "name": "Bellatrix",
+          "sha": "278$^\\circ$21.7",
+          "dec": "6$^\\circ$22.4"
+        },
+        {
+          "name": "Elnath",
+          "sha": "278$^\\circ$00.5",
+          "dec": "28$^\\circ$37.8"
+        },
+        {
+          "name": "Alnilam",
+          "sha": "275$^\\circ$36.6",
+          "dec": "-1$^\\circ$11.1"
+        },
+        {
+          "name": "Betelgeuse",
+          "sha": "270$^\\circ$50.9",
+          "dec": "7$^\\circ$24.7"
+        },
+        {
+          "name": "Canopus",
+          "sha": "263$^\\circ$51.5",
+          "dec": "-52$^\\circ$42.6"
+        },
+        {
+          "name": "Sirius",
+          "sha": "258$^\\circ$25.2",
+          "dec": "-16$^\\circ$45.1"
+        },
+        {
+          "name": "Adhara",
+          "sha": "255$^\\circ$04.8",
+          "dec": "-29$^\\circ$00.4"
+        },
+        {
+          "name": "Procyon",
+          "sha": "244$^\\circ$49.6",
+          "dec": "5$^\\circ$09.5"
+        },
+        {
+          "name": "Pollux",
+          "sha": "243$^\\circ$15.9",
+          "dec": "27$^\\circ$57.7"
+        },
+        {
+          "name": "Avior",
+          "sha": "234$^\\circ$13.8",
+          "dec": "-59$^\\circ$35.4"
+        },
+        {
+          "name": "Suhail",
+          "sha": "222$^\\circ$45.3",
+          "dec": "-43$^\\circ$32.1"
+        },
+        {
+          "name": "Miaplacidus",
+          "sha": "221$^\\circ$37.4",
+          "dec": "-69$^\\circ$49.2"
+        },
+        {
+          "name": "Alphard",
+          "sha": "217$^\\circ$46.7",
+          "dec": "-8$^\\circ$46.3"
+        },
+        {
+          "name": "Regulus",
+          "sha": "207$^\\circ$33.4",
+          "dec": "11$^\\circ$50.3"
+        },
+        {
+          "name": "Dubhe",
+          "sha": "193$^\\circ$39.7",
+          "dec": "61$^\\circ$36.3"
+        },
+        {
+          "name": "Denebola",
+          "sha": "182$^\\circ$24.0",
+          "dec": "14$^\\circ$25.5"
+        },
+        {
+          "name": "Gienah",
+          "sha": "175$^\\circ$42.7",
+          "dec": "-17$^\\circ$41.1"
+        },
+        {
+          "name": "Acrux",
+          "sha": "172$^\\circ$59.1",
+          "dec": "-63$^\\circ$14.3"
+        },
+        {
+          "name": "Gacrux",
+          "sha": "171$^\\circ$50.7",
+          "dec": "-57$^\\circ$15.3"
+        },
+        {
+          "name": "Alioth",
+          "sha": "166$^\\circ$12.3",
+          "dec": "55$^\\circ$48.8"
+        },
+        {
+          "name": "Spica",
+          "sha": "158$^\\circ$21.5",
+          "dec": "-11$^\\circ$17.8"
+        },
+        {
+          "name": "Alkaid",
+          "sha": "152$^\\circ$51.5",
+          "dec": "49$^\\circ$10.7"
+        },
+        {
+          "name": "Hadar",
+          "sha": "148$^\\circ$35.1",
+          "dec": "-60$^\\circ$29.7"
+        },
+        {
+          "name": "Menkent",
+          "sha": "147$^\\circ$56.8",
+          "dec": "-36$^\\circ$29.7"
+        },
+        {
+          "name": "Arcturus",
+          "sha": "145$^\\circ$47.3",
+          "dec": "19$^\\circ$02.6"
+        },
+        {
+          "name": "Rigil Kent.",
+          "sha": "139$^\\circ$39.5",
+          "dec": "-60$^\\circ$56.3"
+        },
+        {
+          "name": "Kochab",
+          "sha": "137$^\\circ$20.5",
+          "dec": "74$^\\circ$02.5"
+        },
+        {
+          "name": "Zuben'ubi",
+          "sha": "136$^\\circ$55.3",
+          "dec": "-16$^\\circ$09.0"
+        },
+        {
+          "name": "Alphecca",
+          "sha": "126$^\\circ$03.3",
+          "dec": "26$^\\circ$37.4"
+        },
+        {
+          "name": "Antares",
+          "sha": "112$^\\circ$15.1",
+          "dec": "-26$^\\circ$29.3"
+        },
+        {
+          "name": "Atria",
+          "sha": "107$^\\circ$09.1",
+          "dec": "-69$^\\circ$04.3"
+        },
+        {
+          "name": "Sabik",
+          "sha": "102$^\\circ$02.2",
+          "dec": "-15$^\\circ$45.4"
+        },
+        {
+          "name": "Shaula",
+          "sha": "96$^\\circ$09.7",
+          "dec": "-37$^\\circ$07.3"
+        },
+        {
+          "name": "Rasalhague",
+          "sha": "95$^\\circ$58.1",
+          "dec": "12$^\\circ$32.4"
+        },
+        {
+          "name": "Eltanin",
+          "sha": "90$^\\circ$42.3",
+          "dec": "51$^\\circ$29.0"
+        },
+        {
+          "name": "Kaus Aust.",
+          "sha": "83$^\\circ$31.8",
+          "dec": "-34$^\\circ$22.3"
+        },
+        {
+          "name": "Vega",
+          "sha": "80$^\\circ$33.1",
+          "dec": "38$^\\circ$48.4"
+        },
+        {
+          "name": "Nunki",
+          "sha": "75$^\\circ$47.1",
+          "dec": "-26$^\\circ$15.9"
+        },
+        {
+          "name": "Altair",
+          "sha": "61$^\\circ$59.5",
+          "dec": "8$^\\circ$56.2"
+        },
+        {
+          "name": "Peacock",
+          "sha": "53$^\\circ$05.0",
+          "dec": "-56$^\\circ$39.2"
+        },
+        {
+          "name": "Deneb",
+          "sha": "49$^\\circ$25.7",
+          "dec": "45$^\\circ$22.5"
+        },
+        {
+          "name": "Enif",
+          "sha": "33$^\\circ$38.2",
+          "dec": "9$^\\circ$59.7"
+        },
+        {
+          "name": "Al Na'ir",
+          "sha": "27$^\\circ$32.2",
+          "dec": "-46$^\\circ$50.3"
+        },
+        {
+          "name": "Fomalhaut",
+          "sha": "15$^\\circ$13.8",
+          "dec": "-29$^\\circ$29.2"
+        },
+        {
+          "name": "Scheat",
+          "sha": "13$^\\circ$44.6",
+          "dec": "28$^\\circ$13.6"
+        },
+        {
+          "name": "Markab",
+          "sha": "13$^\\circ$29.2",
+          "dec": "15$^\\circ$20.8"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "sunMoon": [
+        {
+          "hour": 0,
+          "sunGha": "180$^\\circ$33.5",
+          "sunDec": "22$^\\circ$01.6",
+          "moonGha": "353$^\\circ$36.8",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$40.5",
+          "moonD": "-2.2'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:01:33.7",
+          "moonDecRaw": "-27:40:29.1",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 1,
+          "sunGha": "195$^\\circ$33.5",
+          "sunDec": "22$^\\circ$01.9",
+          "moonGha": "8$^\\circ$05.9",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$42.7",
+          "moonD": "-2.1'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:01:54.2",
+          "moonDecRaw": "-27:42:41.0",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 2,
+          "sunGha": "210$^\\circ$33.4",
+          "sunDec": "22$^\\circ$02.2",
+          "moonGha": "22$^\\circ$35.1",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$44.7",
+          "moonD": "-1.9'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:02:14.7",
+          "moonDecRaw": "-27:44:45.0",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 3,
+          "sunGha": "225$^\\circ$33.3",
+          "sunDec": "22$^\\circ$02.6",
+          "moonGha": "37$^\\circ$04.2",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$46.7",
+          "moonD": "-1.8'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:02:35.2",
+          "moonDecRaw": "-27:46:40.9",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 4,
+          "sunGha": "240$^\\circ$33.2",
+          "sunDec": "22$^\\circ$02.9",
+          "moonGha": "51$^\\circ$33.2",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$48.5",
+          "moonD": "-1.7'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:02:55.6",
+          "moonDecRaw": "-27:48:28.7",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 5,
+          "sunGha": "255$^\\circ$33.1",
+          "sunDec": "22$^\\circ$03.3",
+          "moonGha": "66$^\\circ$02.3",
+          "moonV": "10.1'",
+          "moonDec": "-27$^\\circ$50.1",
+          "moonD": "-1.5'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:03:15.9",
+          "moonDecRaw": "-27:50:08.5",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 6,
+          "sunGha": "270$^\\circ$33.0",
+          "sunDec": "22$^\\circ$03.6",
+          "moonGha": "80$^\\circ$31.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$51.7",
+          "moonD": "-1.4'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:03:36.3",
+          "moonDecRaw": "-27:51:40.2",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 7,
+          "sunGha": "285$^\\circ$32.9",
+          "sunDec": "22$^\\circ$03.9",
+          "moonGha": "95$^\\circ$00.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$53.1",
+          "moonD": "-1.3'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:03:56.6",
+          "moonDecRaw": "-27:53:03.9",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 8,
+          "sunGha": "300$^\\circ$32.8",
+          "sunDec": "22$^\\circ$04.3",
+          "moonGha": "109$^\\circ$29.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$54.3",
+          "moonD": "-1.1'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:04:16.8",
+          "moonDecRaw": "-27:54:19.4",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 9,
+          "sunGha": "315$^\\circ$32.7",
+          "sunDec": "22$^\\circ$04.6",
+          "moonGha": "123$^\\circ$58.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$55.4",
+          "moonD": "-1.0'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:04:37.0",
+          "moonDecRaw": "-27:55:26.9",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 10,
+          "sunGha": "330$^\\circ$32.6",
+          "sunDec": "22$^\\circ$05.0",
+          "moonGha": "138$^\\circ$27.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$56.4",
+          "moonD": "-0.9'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:04:57.2",
+          "moonDecRaw": "-27:56:26.2",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 11,
+          "sunGha": "345$^\\circ$32.5",
+          "sunDec": "22$^\\circ$05.3",
+          "moonGha": "152$^\\circ$56.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$57.3",
+          "moonD": "-0.7'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:05:17.3",
+          "moonDecRaw": "-27:57:17.4",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 12,
+          "sunGha": "0$^\\circ$32.4",
+          "sunDec": "22$^\\circ$05.6",
+          "moonGha": "167$^\\circ$25.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$58.0",
+          "moonD": "-0.6'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:05:37.4",
+          "moonDecRaw": "-27:58:00.5",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 13,
+          "sunGha": "15$^\\circ$32.3",
+          "sunDec": "22$^\\circ$06.0",
+          "moonGha": "181$^\\circ$54.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$58.6",
+          "moonD": "-0.4'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:05:57.5",
+          "moonDecRaw": "-27:58:35.5",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 14,
+          "sunGha": "30$^\\circ$32.2",
+          "sunDec": "22$^\\circ$06.3",
+          "moonGha": "196$^\\circ$23.4",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.0",
+          "moonD": "-0.3'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:06:17.5",
+          "moonDecRaw": "-27:59:02.3",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 15,
+          "sunGha": "45$^\\circ$32.1",
+          "sunDec": "22$^\\circ$06.6",
+          "moonGha": "210$^\\circ$52.3",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.4",
+          "moonD": "-0.2'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:06:37.4",
+          "moonDecRaw": "-27:59:21.0",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 16,
+          "sunGha": "60$^\\circ$32.0",
+          "sunDec": "22$^\\circ$07.0",
+          "moonGha": "225$^\\circ$21.3",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.5",
+          "moonD": "-0.0'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:06:57.4",
+          "moonDecRaw": "-27:59:31.6",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 17,
+          "sunGha": "75$^\\circ$31.9",
+          "sunDec": "22$^\\circ$07.3",
+          "moonGha": "239$^\\circ$50.3",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.6",
+          "moonD": "0.1'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:07:17.3",
+          "moonDecRaw": "-27:59:34.0",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 18,
+          "sunGha": "90$^\\circ$31.8",
+          "sunDec": "22$^\\circ$07.6",
+          "moonGha": "254$^\\circ$19.2",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.5",
+          "moonD": "0.2'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:07:37.1",
+          "moonDecRaw": "-27:59:28.3",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 19,
+          "sunGha": "105$^\\circ$31.7",
+          "sunDec": "22$^\\circ$07.9",
+          "moonGha": "268$^\\circ$48.2",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$59.2",
+          "moonD": "0.4'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:07:56.9",
+          "moonDecRaw": "-27:59:14.4",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 20,
+          "sunGha": "120$^\\circ$31.6",
+          "sunDec": "22$^\\circ$08.3",
+          "moonGha": "283$^\\circ$17.1",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$58.9",
+          "moonD": "0.5'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:08:16.7",
+          "moonDecRaw": "-27:58:52.4",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 21,
+          "sunGha": "135$^\\circ$31.5",
+          "sunDec": "22$^\\circ$08.6",
+          "moonGha": "297$^\\circ$46.1",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$58.4",
+          "moonD": "0.6'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:08:36.4",
+          "moonDecRaw": "-27:58:22.2",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 22,
+          "sunGha": "150$^\\circ$31.4",
+          "sunDec": "22$^\\circ$08.9",
+          "moonGha": "312$^\\circ$15.1",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$57.7",
+          "moonD": "0.8'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:08:56.1",
+          "moonDecRaw": "-27:57:43.9",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        },
+        {
+          "hour": 23,
+          "sunGha": "165$^\\circ$31.3",
+          "sunDec": "22$^\\circ$09.3",
+          "moonGha": "326$^\\circ$44.1",
+          "moonV": "10.0'",
+          "moonDec": "-27$^\\circ$57.0",
+          "moonD": "0.9'",
+          "moonHp": "54.0'",
+          "sunDecRaw": "22:09:15.8",
+          "moonDecRaw": "-27:56:57.5",
+          "sunDecChange": "0.3",
+          "sunSd": "15.8",
+          "moonSd": "14.7"
+        }
+      ],
+      "planets": [
+        {
+          "hour": 0,
+          "aries": "249$^\\circ$29.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "142$^\\circ$32.9",
+              "dec": "24$^\\circ$27.7",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "211$^\\circ$56.1",
+              "dec": "14$^\\circ$08.6",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "133$^\\circ$27.6",
+              "dec": "21$^\\circ$42.1",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "237$^\\circ$21.1",
+              "dec": "02$^\\circ$45.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 1,
+          "aries": "264$^\\circ$32.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "157$^\\circ$32.1",
+              "dec": "24$^\\circ$27.4",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "226$^\\circ$56.8",
+              "dec": "14$^\\circ$09.2",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "148$^\\circ$29.6",
+              "dec": "21$^\\circ$42.0",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "252$^\\circ$23.3",
+              "dec": "02$^\\circ$45.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 2,
+          "aries": "279$^\\circ$34.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "172$^\\circ$31.4",
+              "dec": "24$^\\circ$27.1",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "241$^\\circ$57.4",
+              "dec": "14$^\\circ$09.8",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "163$^\\circ$31.6",
+              "dec": "21$^\\circ$41.9",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "267$^\\circ$25.6",
+              "dec": "02$^\\circ$45.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 3,
+          "aries": "294$^\\circ$37.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "187$^\\circ$30.6",
+              "dec": "24$^\\circ$26.8",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "256$^\\circ$58.1",
+              "dec": "14$^\\circ$10.4",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "178$^\\circ$33.5",
+              "dec": "21$^\\circ$41.8",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "282$^\\circ$27.9",
+              "dec": "02$^\\circ$45.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 4,
+          "aries": "309$^\\circ$39.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "202$^\\circ$29.8",
+              "dec": "24$^\\circ$26.5",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "271$^\\circ$58.8",
+              "dec": "14$^\\circ$11.0",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "193$^\\circ$35.5",
+              "dec": "21$^\\circ$41.7",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "297$^\\circ$30.1",
+              "dec": "02$^\\circ$45.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 5,
+          "aries": "324$^\\circ$42.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "217$^\\circ$29.1",
+              "dec": "24$^\\circ$26.2",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "286$^\\circ$59.4",
+              "dec": "14$^\\circ$11.7",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "208$^\\circ$37.5",
+              "dec": "21$^\\circ$41.7",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "312$^\\circ$32.4",
+              "dec": "02$^\\circ$45.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 6,
+          "aries": "339$^\\circ$44.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "232$^\\circ$28.3",
+              "dec": "24$^\\circ$25.9",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "302$^\\circ$00.1",
+              "dec": "14$^\\circ$12.3",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "223$^\\circ$39.4",
+              "dec": "21$^\\circ$41.6",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "327$^\\circ$34.7",
+              "dec": "02$^\\circ$45.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 7,
+          "aries": "354$^\\circ$47.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "247$^\\circ$27.6",
+              "dec": "24$^\\circ$25.6",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "317$^\\circ$00.7",
+              "dec": "14$^\\circ$12.9",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "238$^\\circ$41.4",
+              "dec": "21$^\\circ$41.5",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "342$^\\circ$36.9",
+              "dec": "02$^\\circ$45.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 8,
+          "aries": "9$^\\circ$49.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "262$^\\circ$26.8",
+              "dec": "24$^\\circ$25.3",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "332$^\\circ$01.4",
+              "dec": "14$^\\circ$13.5",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "253$^\\circ$43.4",
+              "dec": "21$^\\circ$41.4",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "357$^\\circ$39.2",
+              "dec": "02$^\\circ$46.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "aries": "24$^\\circ$51.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "277$^\\circ$26.0",
+              "dec": "24$^\\circ$25.0",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "347$^\\circ$02.1",
+              "dec": "14$^\\circ$14.1",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "268$^\\circ$45.3",
+              "dec": "21$^\\circ$41.3",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "12$^\\circ$41.5",
+              "dec": "02$^\\circ$46.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "aries": "39$^\\circ$54.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "292$^\\circ$25.3",
+              "dec": "24$^\\circ$24.7",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "2$^\\circ$02.7",
+              "dec": "14$^\\circ$14.7",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "283$^\\circ$47.3",
+              "dec": "21$^\\circ$41.3",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "27$^\\circ$43.7",
+              "dec": "02$^\\circ$46.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "aries": "54$^\\circ$56.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "307$^\\circ$24.5",
+              "dec": "24$^\\circ$24.3",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "17$^\\circ$03.4",
+              "dec": "14$^\\circ$15.3",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "298$^\\circ$49.2",
+              "dec": "21$^\\circ$41.2",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "42$^\\circ$46.0",
+              "dec": "02$^\\circ$46.2",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "aries": "69$^\\circ$59.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "322$^\\circ$23.8",
+              "dec": "24$^\\circ$24.0",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "32$^\\circ$04.0",
+              "dec": "14$^\\circ$15.9",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "313$^\\circ$51.2",
+              "dec": "21$^\\circ$41.1",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "57$^\\circ$48.3",
+              "dec": "02$^\\circ$46.3",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "aries": "85$^\\circ$01.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "337$^\\circ$23.0",
+              "dec": "24$^\\circ$23.7",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "47$^\\circ$04.7",
+              "dec": "14$^\\circ$16.5",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "328$^\\circ$53.2",
+              "dec": "21$^\\circ$41.0",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "72$^\\circ$50.5",
+              "dec": "02$^\\circ$46.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "aries": "100$^\\circ$04.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "352$^\\circ$22.3",
+              "dec": "24$^\\circ$23.4",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "62$^\\circ$05.3",
+              "dec": "14$^\\circ$17.1",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "343$^\\circ$55.1",
+              "dec": "21$^\\circ$40.9",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "87$^\\circ$52.8",
+              "dec": "02$^\\circ$46.4",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "aries": "115$^\\circ$06.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "7$^\\circ$21.5",
+              "dec": "24$^\\circ$23.1",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "77$^\\circ$06.0",
+              "dec": "14$^\\circ$17.7",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "358$^\\circ$57.1",
+              "dec": "21$^\\circ$40.9",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "102$^\\circ$55.1",
+              "dec": "02$^\\circ$46.5",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "aries": "130$^\\circ$09.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "22$^\\circ$20.7",
+              "dec": "24$^\\circ$22.8",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "92$^\\circ$06.7",
+              "dec": "14$^\\circ$18.3",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "13$^\\circ$59.1",
+              "dec": "21$^\\circ$40.8",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "117$^\\circ$57.4",
+              "dec": "02$^\\circ$46.6",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 17,
+          "aries": "145$^\\circ$11.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "37$^\\circ$20.0",
+              "dec": "24$^\\circ$22.5",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "107$^\\circ$07.3",
+              "dec": "14$^\\circ$18.9",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "29$^\\circ$01.0",
+              "dec": "21$^\\circ$40.7",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "132$^\\circ$59.6",
+              "dec": "02$^\\circ$46.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 18,
+          "aries": "160$^\\circ$14.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "52$^\\circ$19.2",
+              "dec": "24$^\\circ$22.1",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "122$^\\circ$08.0",
+              "dec": "14$^\\circ$19.5",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "44$^\\circ$03.0",
+              "dec": "21$^\\circ$40.6",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "148$^\\circ$01.9",
+              "dec": "02$^\\circ$46.7",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 19,
+          "aries": "175$^\\circ$16.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "67$^\\circ$18.5",
+              "dec": "24$^\\circ$21.8",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "137$^\\circ$08.6",
+              "dec": "14$^\\circ$20.1",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "59$^\\circ$04.9",
+              "dec": "21$^\\circ$40.5",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "163$^\\circ$04.2",
+              "dec": "02$^\\circ$46.8",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 20,
+          "aries": "190$^\\circ$19.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "82$^\\circ$17.7",
+              "dec": "24$^\\circ$21.5",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "152$^\\circ$09.3",
+              "dec": "14$^\\circ$20.7",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "74$^\\circ$06.9",
+              "dec": "21$^\\circ$40.4",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "178$^\\circ$06.4",
+              "dec": "02$^\\circ$46.9",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 21,
+          "aries": "205$^\\circ$21.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "97$^\\circ$17.0",
+              "dec": "24$^\\circ$21.2",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "167$^\\circ$10.0",
+              "dec": "14$^\\circ$21.3",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "89$^\\circ$08.9",
+              "dec": "21$^\\circ$40.4",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "193$^\\circ$08.7",
+              "dec": "02$^\\circ$47.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 22,
+          "aries": "220$^\\circ$23.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "112$^\\circ$16.2",
+              "dec": "24$^\\circ$20.8",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "182$^\\circ$10.6",
+              "dec": "14$^\\circ$21.9",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "104$^\\circ$10.8",
+              "dec": "21$^\\circ$40.3",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "208$^\\circ$11.0",
+              "dec": "02$^\\circ$47.0",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        },
+        {
+          "hour": 23,
+          "aries": "235$^\\circ$26.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "127$^\\circ$15.5",
+              "dec": "24$^\\circ$20.5",
+              "v": "-0.8",
+              "d": "-0.3",
+              "magnitude": "-3.9"
+            },
+            {
+              "body": "Mars",
+              "gha": "197$^\\circ$11.3",
+              "dec": "14$^\\circ$22.5",
+              "v": "0.7",
+              "d": "0.6",
+              "magnitude": "1.3"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "119$^\\circ$12.8",
+              "dec": "21$^\\circ$40.2",
+              "v": "2.0",
+              "d": "-0.1",
+              "magnitude": "-1.7"
+            },
+            {
+              "body": "Saturn",
+              "gha": "223$^\\circ$13.2",
+              "dec": "02$^\\circ$47.1",
+              "v": "2.3",
+              "d": "0.1",
+              "magnitude": "0.9"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "latitude": 72,
+          "hemisphere": "N",
+          "nauticalDawn": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "civilDawn": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "sunrise": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "sunTransit": "11:57:50",
+          "sunset": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "civilDusk": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "nauticalDusk": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "moonrise": "\\rule{12Pt}{4Pt}",
+          "moonset": "\\rule{12Pt}{4Pt}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 40,
+          "hemisphere": "N",
+          "nauticalDawn": "03:20:50",
+          "civilDawn": "04:01:13",
+          "sunrise": "04:33:20",
+          "sunTransit": "11:57:50",
+          "sunset": "19:22:42",
+          "civilDusk": "19:54:53",
+          "nauticalDusk": "20:35:24",
+          "moonrise": "20:55:12",
+          "moonset": "04:49:45",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 0,
+          "hemisphere": "N",
+          "nauticalDawn": "05:05:57",
+          "civilDawn": "05:31:54",
+          "sunrise": "05:54:14",
+          "sunTransit": "11:57:50",
+          "sunset": "18:01:27",
+          "civilDusk": "18:23:47",
+          "nauticalDusk": "18:49:45",
+          "moonrise": "19:05:22",
+          "moonset": "06:38:51",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": -60,
+          "hemisphere": "S",
+          "nauticalDawn": "06:56:33",
+          "civilDawn": "07:51:43",
+          "sunrise": "08:46:29",
+          "sunTransit": "11:57:50",
+          "sunset": "15:08:48",
+          "civilDusk": "16:03:34",
+          "nauticalDusk": "16:58:43",
+          "moonrise": "14:29:27",
+          "moonset": "11:14:05",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        }
+      ],
+      "transits": {
+        "aries": "07:20",
+        "equationOfTime00": "02:14",
+        "equationOfTime12": "02:10",
+        "sunTransit": "11:57:50",
+        "moonTransit": "00:26:27",
+        "moonAntiTransit": "12:52:06",
+        "moonAge": 16,
+        "moonIllumination": 99,
+        "planetRows": [
+          {
+            "body": "Venus",
+            "sha": "253$^\\circ$03.2",
+            "transit": "14:30:33",
+            "hp": "0.1"
+          },
+          {
+            "body": "Mars",
+            "sha": "322$^\\circ$26.4",
+            "transit": "09:51:50",
+            "hp": "0.1"
+          },
+          {
+            "body": "Jupiter",
+            "sha": "243$^\\circ$57.9",
+            "transit": "15:04:11"
+          },
+          {
+            "body": "Saturn",
+            "sha": "347$^\\circ$51.4",
+            "transit": "08:09:22"
+          }
+        ]
+      },
+      "stars": [
+        {
+          "name": "Alpheratz",
+          "sha": "357$^\\circ$33.7",
+          "dec": "29$^\\circ$14.0"
+        },
+        {
+          "name": "Ankaa",
+          "sha": "353$^\\circ$06.2",
+          "dec": "-42$^\\circ$09.5"
+        },
+        {
+          "name": "Schedar",
+          "sha": "349$^\\circ$30.0",
+          "dec": "56$^\\circ$40.7"
+        },
+        {
+          "name": "Diphda",
+          "sha": "348$^\\circ$46.3",
+          "dec": "-17$^\\circ$50.4"
+        },
+        {
+          "name": "Achernar",
+          "sha": "335$^\\circ$19.8",
+          "dec": "-57$^\\circ$05.9"
+        },
+        {
+          "name": "Hamal",
+          "sha": "327$^\\circ$50.2",
+          "dec": "23$^\\circ$35.1"
+        },
+        {
+          "name": "Polaris",
+          "sha": "313$^\\circ$54.3",
+          "dec": "89$^\\circ$22.4"
+        },
+        {
+          "name": "Acamar",
+          "sha": "315$^\\circ$11.3",
+          "dec": "-40$^\\circ$11.8"
+        },
+        {
+          "name": "Menkar",
+          "sha": "314$^\\circ$05.3",
+          "dec": "4$^\\circ$11.6"
+        },
+        {
+          "name": "Mirfak",
+          "sha": "308$^\\circ$27.1",
+          "dec": "49$^\\circ$57.2"
+        },
+        {
+          "name": "Aldebaran",
+          "sha": "290$^\\circ$38.7",
+          "dec": "16$^\\circ$33.7"
+        },
+        {
+          "name": "Rigel",
+          "sha": "281$^\\circ$03.1",
+          "dec": "-8$^\\circ$10.3"
+        },
+        {
+          "name": "Capella",
+          "sha": "280$^\\circ$20.7",
+          "dec": "46$^\\circ$01.4"
+        },
+        {
+          "name": "Bellatrix",
+          "sha": "278$^\\circ$22.0",
+          "dec": "6$^\\circ$22.4"
+        },
+        {
+          "name": "Elnath",
+          "sha": "278$^\\circ$00.8",
+          "dec": "28$^\\circ$37.8"
+        },
+        {
+          "name": "Alnilam",
+          "sha": "275$^\\circ$36.9",
+          "dec": "-1$^\\circ$11.1"
+        },
+        {
+          "name": "Betelgeuse",
+          "sha": "270$^\\circ$51.2",
+          "dec": "7$^\\circ$24.7"
+        },
+        {
+          "name": "Canopus",
+          "sha": "263$^\\circ$52.4",
+          "dec": "-52$^\\circ$42.7"
+        },
+        {
+          "name": "Sirius",
+          "sha": "258$^\\circ$25.5",
+          "dec": "-16$^\\circ$45.2"
+        },
+        {
+          "name": "Adhara",
+          "sha": "255$^\\circ$05.3",
+          "dec": "-29$^\\circ$00.6"
+        },
+        {
+          "name": "Procyon",
+          "sha": "244$^\\circ$49.9",
+          "dec": "5$^\\circ$09.4"
+        },
+        {
+          "name": "Pollux",
+          "sha": "243$^\\circ$16.2",
+          "dec": "27$^\\circ$57.8"
+        },
+        {
+          "name": "Avior",
+          "sha": "234$^\\circ$14.7",
+          "dec": "-59$^\\circ$35.9"
+        },
+        {
+          "name": "Suhail",
+          "sha": "222$^\\circ$45.7",
+          "dec": "-43$^\\circ$32.6"
+        },
+        {
+          "name": "Miaplacidus",
+          "sha": "221$^\\circ$38.4",
+          "dec": "-69$^\\circ$49.8"
+        },
+        {
+          "name": "Alphard",
+          "sha": "217$^\\circ$46.8",
+          "dec": "-8$^\\circ$46.5"
+        },
+        {
+          "name": "Regulus",
+          "sha": "207$^\\circ$33.3",
+          "dec": "11$^\\circ$50.3"
+        },
+        {
+          "name": "Dubhe",
+          "sha": "193$^\\circ$39.6",
+          "dec": "61$^\\circ$36.7"
+        },
+        {
+          "name": "Denebola",
+          "sha": "182$^\\circ$23.7",
+          "dec": "14$^\\circ$25.5"
+        },
+        {
+          "name": "Gienah",
+          "sha": "175$^\\circ$42.3",
+          "dec": "-17$^\\circ$41.5"
+        },
+        {
+          "name": "Acrux",
+          "sha": "172$^\\circ$58.5",
+          "dec": "-63$^\\circ$15.1"
+        },
+        {
+          "name": "Gacrux",
+          "sha": "171$^\\circ$50.1",
+          "dec": "-57$^\\circ$16.0"
+        },
+        {
+          "name": "Alioth",
+          "sha": "166$^\\circ$11.6",
+          "dec": "55$^\\circ$49.1"
+        },
+        {
+          "name": "Spica",
+          "sha": "158$^\\circ$20.9",
+          "dec": "-11$^\\circ$18.1"
+        },
+        {
+          "name": "Alkaid",
+          "sha": "152$^\\circ$50.7",
+          "dec": "49$^\\circ$11.0"
+        },
+        {
+          "name": "Hadar",
+          "sha": "148$^\\circ$33.8",
+          "dec": "-60$^\\circ$30.3"
+        },
+        {
+          "name": "Menkent",
+          "sha": "147$^\\circ$55.9",
+          "dec": "-36$^\\circ$30.2"
+        },
+        {
+          "name": "Arcturus",
+          "sha": "145$^\\circ$46.6",
+          "dec": "19$^\\circ$02.7"
+        },
+        {
+          "name": "Rigil Kent.",
+          "sha": "139$^\\circ$38.1",
+          "dec": "-60$^\\circ$56.9"
+        },
+        {
+          "name": "Kochab",
+          "sha": "137$^\\circ$18.7",
+          "dec": "74$^\\circ$02.9"
+        },
+        {
+          "name": "Zuben'ubi",
+          "sha": "136$^\\circ$54.4",
+          "dec": "-16$^\\circ$09.2"
+        },
+        {
+          "name": "Alphecca",
+          "sha": "126$^\\circ$02.4",
+          "dec": "26$^\\circ$37.5"
+        },
+        {
+          "name": "Antares",
+          "sha": "112$^\\circ$14.1",
+          "dec": "-26$^\\circ$29.5"
+        },
+        {
+          "name": "Atria",
+          "sha": "107$^\\circ$06.7",
+          "dec": "-69$^\\circ$04.5"
+        },
+        {
+          "name": "Sabik",
+          "sha": "102$^\\circ$01.1",
+          "dec": "-15$^\\circ$45.5"
+        },
+        {
+          "name": "Shaula",
+          "sha": "96$^\\circ$08.4",
+          "dec": "-37$^\\circ$07.3"
+        },
+        {
+          "name": "Rasalhague",
+          "sha": "95$^\\circ$57.1",
+          "dec": "12$^\\circ$32.4"
+        },
+        {
+          "name": "Eltanin",
+          "sha": "90$^\\circ$41.1",
+          "dec": "51$^\\circ$29.0"
+        },
+        {
+          "name": "Kaus Aust.",
+          "sha": "83$^\\circ$30.6",
+          "dec": "-34$^\\circ$22.2"
+        },
+        {
+          "name": "Vega",
+          "sha": "80$^\\circ$32.1",
+          "dec": "38$^\\circ$48.3"
+        },
+        {
+          "name": "Nunki",
+          "sha": "75$^\\circ$46.0",
+          "dec": "-26$^\\circ$15.8"
+        },
+        {
+          "name": "Altair",
+          "sha": "61$^\\circ$58.6",
+          "dec": "8$^\\circ$56.2"
+        },
+        {
+          "name": "Peacock",
+          "sha": "53$^\\circ$03.6",
+          "dec": "-56$^\\circ$38.7"
+        },
+        {
+          "name": "Deneb",
+          "sha": "49$^\\circ$24.8",
+          "dec": "45$^\\circ$22.2"
+        },
+        {
+          "name": "Enif",
+          "sha": "33$^\\circ$37.6",
+          "dec": "9$^\\circ$59.7"
+        },
+        {
+          "name": "Al Na'ir",
+          "sha": "27$^\\circ$31.4",
+          "dec": "-46$^\\circ$49.7"
+        },
+        {
+          "name": "Fomalhaut",
+          "sha": "15$^\\circ$13.3",
+          "dec": "-29$^\\circ$28.8"
+        },
+        {
+          "name": "Scheat",
+          "sha": "13$^\\circ$44.1",
+          "dec": "28$^\\circ$13.4"
+        },
+        {
+          "name": "Markab",
+          "sha": "13$^\\circ$28.8",
+          "dec": "15$^\\circ$20.7"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "sunMoon": [
+        {
+          "hour": 0,
+          "sunGha": "180$^\\circ$32.7",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "47$^\\circ$20.9",
+          "moonV": "6.5'",
+          "moonDec": "21$^\\circ$33.9",
+          "moonD": "10.9'",
+          "moonHp": "59.7'",
+          "sunDecRaw": "-23:26:04.2",
+          "moonDecRaw": "21:33:56.9",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 1,
+          "sunGha": "195$^\\circ$32.4",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "61$^\\circ$46.4",
+          "moonV": "6.3'",
+          "moonDec": "21$^\\circ$44.9",
+          "moonD": "10.8'",
+          "moonHp": "59.8'",
+          "sunDecRaw": "-23:26:05.1",
+          "moonDecRaw": "21:44:51.1",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 2,
+          "sunGha": "210$^\\circ$32.1",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "76$^\\circ$11.7",
+          "moonV": "6.2'",
+          "moonDec": "21$^\\circ$55.6",
+          "moonD": "10.7'",
+          "moonHp": "59.8'",
+          "sunDecRaw": "-23:26:06.1",
+          "moonDecRaw": "21:55:37.8",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 3,
+          "sunGha": "225$^\\circ$31.8",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "90$^\\circ$36.9",
+          "moonV": "6.0'",
+          "moonDec": "22$^\\circ$06.3",
+          "moonD": "10.5'",
+          "moonHp": "59.9'",
+          "sunDecRaw": "-23:26:07.0",
+          "moonDecRaw": "22:06:17.0",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 4,
+          "sunGha": "240$^\\circ$31.5",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "105$^\\circ$02.0",
+          "moonV": "5.9'",
+          "moonDec": "22$^\\circ$16.8",
+          "moonD": "10.4'",
+          "moonHp": "59.9'",
+          "sunDecRaw": "-23:26:07.8",
+          "moonDecRaw": "22:16:48.5",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 5,
+          "sunGha": "255$^\\circ$31.2",
+          "sunDec": "-23$^\\circ$26.1",
+          "moonGha": "119$^\\circ$26.9",
+          "moonV": "5.8'",
+          "moonDec": "22$^\\circ$27.2",
+          "moonD": "10.3'",
+          "moonHp": "59.9'",
+          "sunDecRaw": "-23:26:08.6",
+          "moonDecRaw": "22:27:12.2",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.3"
+        },
+        {
+          "hour": 6,
+          "sunGha": "270$^\\circ$30.9",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "133$^\\circ$51.6",
+          "moonV": "5.6'",
+          "moonDec": "22$^\\circ$37.5",
+          "moonD": "10.1'",
+          "moonHp": "60.0'",
+          "sunDecRaw": "-23:26:09.4",
+          "moonDecRaw": "22:37:28.0",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 7,
+          "sunGha": "285$^\\circ$30.6",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "148$^\\circ$16.3",
+          "moonV": "5.5'",
+          "moonDec": "22$^\\circ$47.6",
+          "moonD": "10.0'",
+          "moonHp": "60.0'",
+          "sunDecRaw": "-23:26:10.1",
+          "moonDecRaw": "22:47:35.7",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 8,
+          "sunGha": "300$^\\circ$30.3",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "162$^\\circ$40.7",
+          "moonV": "5.3'",
+          "moonDec": "22$^\\circ$57.6",
+          "moonD": "9.9'",
+          "moonHp": "60.0'",
+          "sunDecRaw": "-23:26:10.7",
+          "moonDecRaw": "22:57:35.1",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 9,
+          "sunGha": "315$^\\circ$29.9",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "177$^\\circ$05.1",
+          "moonV": "5.2'",
+          "moonDec": "23$^\\circ$07.4",
+          "moonD": "9.7'",
+          "moonHp": "60.1'",
+          "sunDecRaw": "-23:26:11.3",
+          "moonDecRaw": "23:07:26.3",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 10,
+          "sunGha": "330$^\\circ$29.6",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "191$^\\circ$29.3",
+          "moonV": "5.1'",
+          "moonDec": "23$^\\circ$17.1",
+          "moonD": "9.6'",
+          "moonHp": "60.1'",
+          "sunDecRaw": "-23:26:11.9",
+          "moonDecRaw": "23:17:08.9",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 11,
+          "sunGha": "345$^\\circ$29.3",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "205$^\\circ$53.3",
+          "moonV": "4.9'",
+          "moonDec": "23$^\\circ$26.7",
+          "moonD": "9.4'",
+          "moonHp": "60.1'",
+          "sunDecRaw": "-23:26:12.4",
+          "moonDecRaw": "23:26:43.0",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 12,
+          "sunGha": "0$^\\circ$29.0",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "220$^\\circ$17.2",
+          "moonV": "4.8'",
+          "moonDec": "23$^\\circ$36.1",
+          "moonD": "9.3'",
+          "moonHp": "60.2'",
+          "sunDecRaw": "-23:26:12.8",
+          "moonDecRaw": "23:36:08.2",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 13,
+          "sunGha": "15$^\\circ$28.7",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "234$^\\circ$41.0",
+          "moonV": "4.6'",
+          "moonDec": "23$^\\circ$45.4",
+          "moonD": "9.1'",
+          "moonHp": "60.2'",
+          "sunDecRaw": "-23:26:13.3",
+          "moonDecRaw": "23:45:24.6",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 14,
+          "sunGha": "30$^\\circ$28.4",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "249$^\\circ$04.7",
+          "moonV": "4.5'",
+          "moonDec": "23$^\\circ$54.5",
+          "moonD": "9.0'",
+          "moonHp": "60.2'",
+          "sunDecRaw": "-23:26:13.6",
+          "moonDecRaw": "23:54:32.0",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 15,
+          "sunGha": "45$^\\circ$28.1",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "263$^\\circ$28.2",
+          "moonV": "4.4'",
+          "moonDec": "24$^\\circ$03.5",
+          "moonD": "8.8'",
+          "moonHp": "60.3'",
+          "sunDecRaw": "-23:26:13.9",
+          "moonDecRaw": "24:03:30.3",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.4"
+        },
+        {
+          "hour": 16,
+          "sunGha": "60$^\\circ$27.8",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "277$^\\circ$51.5",
+          "moonV": "4.2'",
+          "moonDec": "24$^\\circ$12.3",
+          "moonD": "8.7'",
+          "moonHp": "60.3'",
+          "sunDecRaw": "-23:26:14.2",
+          "moonDecRaw": "24:12:19.2",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 17,
+          "sunGha": "75$^\\circ$27.5",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "292$^\\circ$14.8",
+          "moonV": "4.1'",
+          "moonDec": "24$^\\circ$21.0",
+          "moonD": "8.5'",
+          "moonHp": "60.3'",
+          "sunDecRaw": "-23:26:14.4",
+          "moonDecRaw": "24:20:58.7",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 18,
+          "sunGha": "90$^\\circ$27.2",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "306$^\\circ$37.9",
+          "moonV": "4.0'",
+          "moonDec": "24$^\\circ$29.5",
+          "moonD": "8.3'",
+          "moonHp": "60.4'",
+          "sunDecRaw": "-23:26:14.5",
+          "moonDecRaw": "24:29:28.7",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 19,
+          "sunGha": "105$^\\circ$26.9",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "321$^\\circ$00.8",
+          "moonV": "3.8'",
+          "moonDec": "24$^\\circ$37.8",
+          "moonD": "8.2'",
+          "moonHp": "60.4'",
+          "sunDecRaw": "-23:26:14.7",
+          "moonDecRaw": "24:37:49.0",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 20,
+          "sunGha": "120$^\\circ$26.5",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "335$^\\circ$23.7",
+          "moonV": "3.7'",
+          "moonDec": "24$^\\circ$46.0",
+          "moonD": "8.0'",
+          "moonHp": "60.4'",
+          "sunDecRaw": "-23:26:14.7",
+          "moonDecRaw": "24:45:59.5",
+          "sunDecChange": "-0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 21,
+          "sunGha": "135$^\\circ$26.2",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "349$^\\circ$46.4",
+          "moonV": "3.6'",
+          "moonDec": "24$^\\circ$54.0",
+          "moonD": "7.8'",
+          "moonHp": "60.5'",
+          "sunDecRaw": "-23:26:14.7",
+          "moonDecRaw": "24:54:00.0",
+          "sunDecChange": "0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 22,
+          "sunGha": "150$^\\circ$25.9",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "4$^\\circ$08.9",
+          "moonV": "3.4'",
+          "moonDec": "25$^\\circ$01.8",
+          "moonD": "7.7'",
+          "moonHp": "60.5'",
+          "sunDecRaw": "-23:26:14.7",
+          "moonDecRaw": "25:01:50.5",
+          "sunDecChange": "0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        },
+        {
+          "hour": 23,
+          "sunGha": "165$^\\circ$25.6",
+          "sunDec": "-23$^\\circ$26.2",
+          "moonGha": "18$^\\circ$31.4",
+          "moonV": "3.3'",
+          "moonDec": "25$^\\circ$09.5",
+          "moonD": "7.5'",
+          "moonHp": "60.5'",
+          "sunDecRaw": "-23:26:14.6",
+          "moonDecRaw": "25:09:30.8",
+          "sunDecChange": "0.0",
+          "sunSd": "16.3",
+          "moonSd": "16.5"
+        }
+      ],
+      "planets": [
+        {
+          "hour": 0,
+          "aries": "89$^\\circ$34.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "228$^\\circ$02.9",
+              "dec": "-12$^\\circ$45.3",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "288$^\\circ$49.8",
+              "dec": "11$^\\circ$16.1",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "300$^\\circ$08.1",
+              "dec": "13$^\\circ$22.2",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "81$^\\circ$13.6",
+              "dec": "00$^\\circ$52.9",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 1,
+          "aries": "104$^\\circ$37.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "243$^\\circ$03.1",
+              "dec": "-12$^\\circ$45.8",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "303$^\\circ$51.7",
+              "dec": "11$^\\circ$16.0",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "315$^\\circ$10.7",
+              "dec": "13$^\\circ$22.2",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "96$^\\circ$16.0",
+              "dec": "00$^\\circ$53.0",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 2,
+          "aries": "119$^\\circ$39.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "258$^\\circ$03.4",
+              "dec": "-12$^\\circ$46.4",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "318$^\\circ$53.6",
+              "dec": "11$^\\circ$15.8",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "330$^\\circ$13.2",
+              "dec": "13$^\\circ$22.3",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "111$^\\circ$18.5",
+              "dec": "00$^\\circ$53.0",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 3,
+          "aries": "134$^\\circ$42.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "273$^\\circ$03.6",
+              "dec": "-12$^\\circ$47.0",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "333$^\\circ$55.5",
+              "dec": "11$^\\circ$15.7",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "345$^\\circ$15.7",
+              "dec": "13$^\\circ$22.3",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "126$^\\circ$20.9",
+              "dec": "00$^\\circ$53.0",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 4,
+          "aries": "149$^\\circ$44.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "288$^\\circ$03.8",
+              "dec": "-12$^\\circ$47.5",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "348$^\\circ$57.4",
+              "dec": "11$^\\circ$15.6",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "0$^\\circ$18.2",
+              "dec": "13$^\\circ$22.3",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "141$^\\circ$23.3",
+              "dec": "00$^\\circ$53.0",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 5,
+          "aries": "164$^\\circ$47.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "303$^\\circ$04.1",
+              "dec": "-12$^\\circ$48.1",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "3$^\\circ$59.3",
+              "dec": "11$^\\circ$15.4",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "15$^\\circ$20.8",
+              "dec": "13$^\\circ$22.4",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "156$^\\circ$25.7",
+              "dec": "00$^\\circ$53.1",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 6,
+          "aries": "179$^\\circ$49.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "318$^\\circ$04.3",
+              "dec": "-12$^\\circ$48.7",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "19$^\\circ$01.2",
+              "dec": "11$^\\circ$15.3",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "30$^\\circ$23.3",
+              "dec": "13$^\\circ$22.4",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "171$^\\circ$28.2",
+              "dec": "00$^\\circ$53.1",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 7,
+          "aries": "194$^\\circ$52.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "333$^\\circ$04.5",
+              "dec": "-12$^\\circ$49.3",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "34$^\\circ$03.1",
+              "dec": "11$^\\circ$15.2",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "45$^\\circ$25.8",
+              "dec": "13$^\\circ$22.4",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "186$^\\circ$30.6",
+              "dec": "00$^\\circ$53.1",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 8,
+          "aries": "209$^\\circ$54.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "348$^\\circ$04.8",
+              "dec": "-12$^\\circ$49.8",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "49$^\\circ$05.0",
+              "dec": "11$^\\circ$15.0",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "60$^\\circ$28.3",
+              "dec": "13$^\\circ$22.5",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "201$^\\circ$33.0",
+              "dec": "00$^\\circ$53.2",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "aries": "224$^\\circ$57.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "3$^\\circ$05.0",
+              "dec": "-12$^\\circ$50.4",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "64$^\\circ$07.0",
+              "dec": "11$^\\circ$14.9",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "75$^\\circ$30.9",
+              "dec": "13$^\\circ$22.5",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "216$^\\circ$35.4",
+              "dec": "00$^\\circ$53.2",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "aries": "239$^\\circ$59.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "18$^\\circ$05.2",
+              "dec": "-12$^\\circ$51.0",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "79$^\\circ$08.9",
+              "dec": "11$^\\circ$14.8",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "90$^\\circ$33.4",
+              "dec": "13$^\\circ$22.5",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "231$^\\circ$37.9",
+              "dec": "00$^\\circ$53.2",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "aries": "255$^\\circ$02.1",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "33$^\\circ$05.5",
+              "dec": "-12$^\\circ$51.5",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "94$^\\circ$10.8",
+              "dec": "11$^\\circ$14.6",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "105$^\\circ$35.9",
+              "dec": "13$^\\circ$22.6",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "246$^\\circ$40.3",
+              "dec": "00$^\\circ$53.2",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "aries": "270$^\\circ$04.5",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "48$^\\circ$05.7",
+              "dec": "-12$^\\circ$52.1",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "109$^\\circ$12.7",
+              "dec": "11$^\\circ$14.5",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "120$^\\circ$38.4",
+              "dec": "13$^\\circ$22.6",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "261$^\\circ$42.7",
+              "dec": "00$^\\circ$53.3",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "aries": "285$^\\circ$07.0",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "63$^\\circ$05.9",
+              "dec": "-12$^\\circ$52.7",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "124$^\\circ$14.6",
+              "dec": "11$^\\circ$14.4",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "135$^\\circ$41.0",
+              "dec": "13$^\\circ$22.6",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "276$^\\circ$45.1",
+              "dec": "00$^\\circ$53.3",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "aries": "300$^\\circ$09.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "78$^\\circ$06.1",
+              "dec": "-12$^\\circ$53.3",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "139$^\\circ$16.5",
+              "dec": "11$^\\circ$14.2",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "150$^\\circ$43.5",
+              "dec": "13$^\\circ$22.7",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "291$^\\circ$47.6",
+              "dec": "00$^\\circ$53.3",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "aries": "315$^\\circ$11.9",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "93$^\\circ$06.3",
+              "dec": "-12$^\\circ$53.8",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "154$^\\circ$18.5",
+              "dec": "11$^\\circ$14.1",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "165$^\\circ$46.0",
+              "dec": "13$^\\circ$22.7",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "306$^\\circ$50.0",
+              "dec": "00$^\\circ$53.4",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "aries": "330$^\\circ$14.4",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "108$^\\circ$06.6",
+              "dec": "-12$^\\circ$54.4",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "169$^\\circ$20.4",
+              "dec": "11$^\\circ$14.0",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "180$^\\circ$48.6",
+              "dec": "13$^\\circ$22.7",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "321$^\\circ$52.4",
+              "dec": "00$^\\circ$53.4",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 17,
+          "aries": "345$^\\circ$16.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "123$^\\circ$06.8",
+              "dec": "-12$^\\circ$55.0",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "184$^\\circ$22.3",
+              "dec": "11$^\\circ$13.8",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "195$^\\circ$51.1",
+              "dec": "13$^\\circ$22.8",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "336$^\\circ$54.8",
+              "dec": "00$^\\circ$53.4",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 18,
+          "aries": "0$^\\circ$19.3",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "138$^\\circ$07.0",
+              "dec": "-12$^\\circ$55.6",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "199$^\\circ$24.2",
+              "dec": "11$^\\circ$13.7",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "210$^\\circ$53.6",
+              "dec": "13$^\\circ$22.8",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "351$^\\circ$57.3",
+              "dec": "00$^\\circ$53.4",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 19,
+          "aries": "15$^\\circ$21.8",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "153$^\\circ$07.2",
+              "dec": "-12$^\\circ$56.1",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "214$^\\circ$26.1",
+              "dec": "11$^\\circ$13.6",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "225$^\\circ$56.1",
+              "dec": "13$^\\circ$22.8",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "6$^\\circ$59.7",
+              "dec": "00$^\\circ$53.5",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 20,
+          "aries": "30$^\\circ$24.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "168$^\\circ$07.4",
+              "dec": "-12$^\\circ$56.7",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "229$^\\circ$28.1",
+              "dec": "11$^\\circ$13.4",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "240$^\\circ$58.7",
+              "dec": "13$^\\circ$22.9",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "22$^\\circ$02.1",
+              "dec": "00$^\\circ$53.5",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 21,
+          "aries": "45$^\\circ$26.7",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "183$^\\circ$07.7",
+              "dec": "-12$^\\circ$57.3",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "244$^\\circ$30.0",
+              "dec": "11$^\\circ$13.3",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "256$^\\circ$01.2",
+              "dec": "13$^\\circ$22.9",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "37$^\\circ$04.5",
+              "dec": "00$^\\circ$53.5",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 22,
+          "aries": "60$^\\circ$29.2",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "198$^\\circ$07.9",
+              "dec": "-12$^\\circ$57.9",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "259$^\\circ$31.9",
+              "dec": "11$^\\circ$13.2",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "271$^\\circ$03.7",
+              "dec": "13$^\\circ$22.9",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "52$^\\circ$07.0",
+              "dec": "00$^\\circ$53.6",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        },
+        {
+          "hour": 23,
+          "aries": "75$^\\circ$31.6",
+          "planets": [
+            {
+              "body": "Venus",
+              "gha": "213$^\\circ$08.1",
+              "dec": "-12$^\\circ$58.4",
+              "v": "0.2",
+              "d": "-0.6",
+              "magnitude": "-4.4"
+            },
+            {
+              "body": "Mars",
+              "gha": "274$^\\circ$33.8",
+              "dec": "11$^\\circ$13.1",
+              "v": "1.9",
+              "d": "-0.1",
+              "magnitude": "0.1"
+            },
+            {
+              "body": "Jupiter",
+              "gha": "286$^\\circ$06.3",
+              "dec": "13$^\\circ$23.0",
+              "v": "2.5",
+              "d": "0.0",
+              "magnitude": "-2.2"
+            },
+            {
+              "body": "Saturn",
+              "gha": "67$^\\circ$09.4",
+              "dec": "00$^\\circ$53.6",
+              "v": "2.4",
+              "d": "0.0",
+              "magnitude": "0.8"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "latitude": 72,
+          "hemisphere": "N",
+          "nauticalDawn": "08:25:45",
+          "civilDawn": "10:57:48",
+          "sunrise": "\\rule{12Pt}{4Pt}",
+          "sunTransit": "11:58:04",
+          "sunset": "\\rule{12Pt}{4Pt}",
+          "civilDusk": "12:58:19",
+          "nauticalDusk": "15:30:22",
+          "moonrise": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "moonset": "\\begin{tikzpicture}\\draw (0,0) rectangle (12pt,4pt);\\end{tikzpicture}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 40,
+          "hemisphere": "N",
+          "nauticalDawn": "06:13:32",
+          "civilDawn": "06:47:38",
+          "sunrise": "07:18:12",
+          "sunTransit": "11:58:04",
+          "sunset": "16:37:55",
+          "civilDusk": "17:08:29",
+          "nauticalDusk": "17:42:35",
+          "moonrise": "13:57:15",
+          "moonset": "04:20:24",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": 0,
+          "hemisphere": "N",
+          "nauticalDawn": "05:05:33",
+          "civilDawn": "05:31:47",
+          "sunrise": "05:54:18",
+          "sunTransit": "11:58:04",
+          "sunset": "18:01:50",
+          "civilDusk": "18:24:21",
+          "nauticalDusk": "18:50:35",
+          "moonrise": "15:27:59",
+          "moonset": "02:56:44",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        },
+        {
+          "latitude": -60,
+          "hemisphere": "S",
+          "nauticalDawn": "--:--",
+          "civilDawn": "00:45:25",
+          "sunrise": "02:31:53",
+          "sunTransit": "11:58:04",
+          "sunset": "21:24:16",
+          "civilDusk": "23:10:50",
+          "nauticalDusk": "--:--",
+          "moonrise": "19:09:17",
+          "moonset": "\\raisebox{0.24ex}{\\boldmath$\\cdot\\cdot$~\\boldmath$\\cdot\\cdot$}",
+          "secondMoonrise": "--:--",
+          "secondMoonset": "--:--"
+        }
+      ],
+      "transits": {
+        "aries": "17:58",
+        "equationOfTime00": "02:11",
+        "equationOfTime12": "01:56",
+        "sunTransit": "11:58:04",
+        "moonTransit": "21:42:41",
+        "moonAntiTransit": "09:12:09",
+        "moonAge": 12,
+        "moonIllumination": 87,
+        "planetRows": [
+          {
+            "body": "Venus",
+            "sha": "138$^\\circ$27.9",
+            "transit": "08:47:40",
+            "hp": "0.3"
+          },
+          {
+            "body": "Mars",
+            "sha": "199$^\\circ$14.8",
+            "transit": "04:44:05",
+            "hp": "0.1"
+          },
+          {
+            "body": "Jupiter",
+            "sha": "210$^\\circ$33.2",
+            "transit": "03:58:47"
+          },
+          {
+            "body": "Saturn",
+            "sha": "351$^\\circ$38.7",
+            "transit": "18:32:06"
+          }
+        ]
+      },
+      "stars": [
+        {
+          "name": "Alpheratz",
+          "sha": "357$^\\circ$33.1",
+          "dec": "29$^\\circ$14.6"
+        },
+        {
+          "name": "Ankaa",
+          "sha": "353$^\\circ$05.5",
+          "dec": "-42$^\\circ$09.7"
+        },
+        {
+          "name": "Schedar",
+          "sha": "349$^\\circ$29.1",
+          "dec": "56$^\\circ$41.5"
+        },
+        {
+          "name": "Diphda",
+          "sha": "348$^\\circ$45.6",
+          "dec": "-17$^\\circ$50.4"
+        },
+        {
+          "name": "Achernar",
+          "sha": "335$^\\circ$18.8",
+          "dec": "-57$^\\circ$06.2"
+        },
+        {
+          "name": "Hamal",
+          "sha": "327$^\\circ$49.2",
+          "dec": "23$^\\circ$35.5"
+        },
+        {
+          "name": "Polaris",
+          "sha": "312$^\\circ$47.7",
+          "dec": "89$^\\circ$22.9"
+        },
+        {
+          "name": "Acamar",
+          "sha": "315$^\\circ$10.2",
+          "dec": "-40$^\\circ$11.9"
+        },
+        {
+          "name": "Menkar",
+          "sha": "314$^\\circ$04.2",
+          "dec": "4$^\\circ$11.8"
+        },
+        {
+          "name": "Mirfak",
+          "sha": "308$^\\circ$25.5",
+          "dec": "49$^\\circ$57.6"
+        },
+        {
+          "name": "Aldebaran",
+          "sha": "290$^\\circ$37.4",
+          "dec": "16$^\\circ$33.8"
+        },
+        {
+          "name": "Rigel",
+          "sha": "281$^\\circ$02.0",
+          "dec": "-8$^\\circ$10.2"
+        },
+        {
+          "name": "Capella",
+          "sha": "280$^\\circ$19.0",
+          "dec": "46$^\\circ$01.5"
+        },
+        {
+          "name": "Bellatrix",
+          "sha": "278$^\\circ$20.8",
+          "dec": "6$^\\circ$22.4"
+        },
+        {
+          "name": "Elnath",
+          "sha": "277$^\\circ$59.5",
+          "dec": "28$^\\circ$37.8"
+        },
+        {
+          "name": "Alnilam",
+          "sha": "275$^\\circ$35.8",
+          "dec": "-1$^\\circ$11.1"
+        },
+        {
+          "name": "Betelgeuse",
+          "sha": "270$^\\circ$50.0",
+          "dec": "7$^\\circ$24.7"
+        },
+        {
+          "name": "Canopus",
+          "sha": "263$^\\circ$51.1",
+          "dec": "-52$^\\circ$42.5"
+        },
+        {
+          "name": "Sirius",
+          "sha": "258$^\\circ$24.5",
+          "dec": "-16$^\\circ$45.2"
+        },
+        {
+          "name": "Adhara",
+          "sha": "255$^\\circ$04.2",
+          "dec": "-29$^\\circ$00.5"
+        },
+        {
+          "name": "Procyon",
+          "sha": "244$^\\circ$48.9",
+          "dec": "5$^\\circ$09.3"
+        },
+        {
+          "name": "Pollux",
+          "sha": "243$^\\circ$15.0",
+          "dec": "27$^\\circ$57.5"
+        },
+        {
+          "name": "Avior",
+          "sha": "234$^\\circ$13.5",
+          "dec": "-59$^\\circ$35.6"
+        },
+        {
+          "name": "Suhail",
+          "sha": "222$^\\circ$44.8",
+          "dec": "-43$^\\circ$32.3"
+        },
+        {
+          "name": "Miaplacidus",
+          "sha": "221$^\\circ$37.3",
+          "dec": "-69$^\\circ$49.4"
+        },
+        {
+          "name": "Alphard",
+          "sha": "217$^\\circ$46.0",
+          "dec": "-8$^\\circ$46.5"
+        },
+        {
+          "name": "Regulus",
+          "sha": "207$^\\circ$32.6",
+          "dec": "11$^\\circ$50.0"
+        },
+        {
+          "name": "Dubhe",
+          "sha": "193$^\\circ$38.9",
+          "dec": "61$^\\circ$36.0"
+        },
+        {
+          "name": "Denebola",
+          "sha": "182$^\\circ$23.3",
+          "dec": "14$^\\circ$25.1"
+        },
+        {
+          "name": "Gienah",
+          "sha": "175$^\\circ$42.0",
+          "dec": "-17$^\\circ$41.5"
+        },
+        {
+          "name": "Acrux",
+          "sha": "172$^\\circ$58.4",
+          "dec": "-63$^\\circ$14.7"
+        },
+        {
+          "name": "Gacrux",
+          "sha": "171$^\\circ$49.9",
+          "dec": "-57$^\\circ$15.6"
+        },
+        {
+          "name": "Alioth",
+          "sha": "166$^\\circ$11.7",
+          "dec": "55$^\\circ$48.5"
+        },
+        {
+          "name": "Spica",
+          "sha": "158$^\\circ$20.7",
+          "dec": "-11$^\\circ$18.1"
+        },
+        {
+          "name": "Alkaid",
+          "sha": "152$^\\circ$51.0",
+          "dec": "49$^\\circ$10.4"
+        },
+        {
+          "name": "Hadar",
+          "sha": "148$^\\circ$34.0",
+          "dec": "-60$^\\circ$30.0"
+        },
+        {
+          "name": "Menkent",
+          "sha": "147$^\\circ$55.9",
+          "dec": "-36$^\\circ$30.0"
+        },
+        {
+          "name": "Arcturus",
+          "sha": "145$^\\circ$46.7",
+          "dec": "19$^\\circ$02.4"
+        },
+        {
+          "name": "Rigil Kent.",
+          "sha": "139$^\\circ$38.5",
+          "dec": "-60$^\\circ$56.6"
+        },
+        {
+          "name": "Kochab",
+          "sha": "137$^\\circ$20.7",
+          "dec": "74$^\\circ$02.3"
+        },
+        {
+          "name": "Zuben'ubi",
+          "sha": "136$^\\circ$54.5",
+          "dec": "-16$^\\circ$09.2"
+        },
+        {
+          "name": "Alphecca",
+          "sha": "126$^\\circ$02.7",
+          "dec": "26$^\\circ$37.3"
+        },
+        {
+          "name": "Antares",
+          "sha": "112$^\\circ$14.2",
+          "dec": "-26$^\\circ$29.4"
+        },
+        {
+          "name": "Atria",
+          "sha": "107$^\\circ$07.5",
+          "dec": "-69$^\\circ$04.4"
+        },
+        {
+          "name": "Sabik",
+          "sha": "102$^\\circ$01.3",
+          "dec": "-15$^\\circ$45.5"
+        },
+        {
+          "name": "Shaula",
+          "sha": "96$^\\circ$08.6",
+          "dec": "-37$^\\circ$07.3"
+        },
+        {
+          "name": "Rasalhague",
+          "sha": "95$^\\circ$57.4",
+          "dec": "12$^\\circ$32.4"
+        },
+        {
+          "name": "Eltanin",
+          "sha": "90$^\\circ$42.0",
+          "dec": "51$^\\circ$29.1"
+        },
+        {
+          "name": "Kaus Aust.",
+          "sha": "83$^\\circ$30.8",
+          "dec": "-34$^\\circ$22.3"
+        },
+        {
+          "name": "Vega",
+          "sha": "80$^\\circ$32.6",
+          "dec": "38$^\\circ$48.6"
+        },
+        {
+          "name": "Nunki",
+          "sha": "75$^\\circ$46.1",
+          "dec": "-26$^\\circ$15.8"
+        },
+        {
+          "name": "Altair",
+          "sha": "61$^\\circ$58.7",
+          "dec": "8$^\\circ$56.4"
+        },
+        {
+          "name": "Peacock",
+          "sha": "53$^\\circ$03.7",
+          "dec": "-56$^\\circ$39.0"
+        },
+        {
+          "name": "Deneb",
+          "sha": "49$^\\circ$25.1",
+          "dec": "45$^\\circ$22.8"
+        },
+        {
+          "name": "Enif",
+          "sha": "33$^\\circ$37.4",
+          "dec": "10$^\\circ$00.0"
+        },
+        {
+          "name": "Al Na'ir",
+          "sha": "27$^\\circ$31.2",
+          "dec": "-46$^\\circ$50.0"
+        },
+        {
+          "name": "Fomalhaut",
+          "sha": "15$^\\circ$12.9",
+          "dec": "-29$^\\circ$28.9"
+        },
+        {
+          "name": "Scheat",
+          "sha": "13$^\\circ$43.7",
+          "dec": "28$^\\circ$14.0"
+        },
+        {
+          "name": "Markab",
+          "sha": "13$^\\circ$28.4",
+          "dec": "15$^\\circ$21.2"
+        }
+      ]
+    }
+  ],
+  "ranges": {
+    "multiDay": {
+      "start": "2026-01-01",
+      "days": 3
+    },
+    "month": {
+      "start": "2026-06-01",
+      "days": 30
+    },
+    "polarCases": [
+      72,
+      40,
+      0,
+      -60
+    ]
+  }
+}
+
