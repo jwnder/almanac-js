@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { makeIncrementsTex } from './increments.js';
@@ -14,6 +14,7 @@ export async function generateAlmanac(config) {
   const tex = makeTex(withSupportAssets(config));
   const outputDir = config.outputDir ?? 'output';
   await mkdir(outputDir, { recursive: true });
+  await removeStaleSidecars(outputDir, config);
   const outputPath = join(outputDir, `${config.fileBase}.tex`);
   await writeFile(outputPath, tex, 'utf8');
 
@@ -28,6 +29,18 @@ export async function generateAlmanac(config) {
     pdfPath,
     message: messageFor(config)
   };
+}
+
+async function removeStaleSidecars(outputDir, config) {
+  const sidecars = ['.aux', '.out', '.toc'];
+  if (!config.keepTex) sidecars.push('.tex');
+  if (!config.keepLog) sidecars.push('.log');
+
+  await Promise.all(sidecars.map(extension => removeIfExists(join(outputDir, `${config.fileBase}${extension}`))));
+}
+
+async function removeIfExists(path) {
+  await rm(path, { force: true });
 }
 
 function withSupportAssets(config) {

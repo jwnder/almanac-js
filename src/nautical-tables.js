@@ -93,7 +93,7 @@ ${pageBreakBefore ? String.raw`\newgeometry{${evenGeometryOptions(layout)}}` : '
 ${layout.modern ? String.raw`\sffamily
 \fancyhead[LE]{\quad\textsf{\textbf{${evenHeader(padded)}}}}` : String.raw`\fancyhead[LE]{\quad\textbf{${evenHeader(padded)}}}`}
 \begin{scriptsize}
-\vspace{6Pt}\noindent
+${layout.modern ? String.raw`\vspace{6Pt}` : String.raw`\vspace{0Pt}`}\noindent
 ${planetHoursTable(padded, layout)}\quad
 ${starAndPlanetDetailTable(padded, layout)}
 \end{scriptsize}
@@ -131,8 +131,8 @@ ${rows.join('\n')}
 \cmidrule{1-2} \cmidrule{4-5} \cmidrule{7-8} \cmidrule{10-11} \cmidrule{13-14}`;
   });
 
-  return String.raw`\renewcommand{\arraystretch}{1.1}
-\setlength{\tabcolsep}{4pt}  % default 6pt
+  return String.raw`\renewcommand{\arraystretch}{${layout.modern ? '1.1' : '0.93'}}
+\setlength{\tabcolsep}{${layout.modern ? '4pt' : '3.4pt'}}  % default 6pt
 \begin{tabular}[t]{crcrrcrrcrrcrr}
 \multicolumn{1}{c}{\normalsize{h}} & 
 \multicolumn{1}{c}{\normalsize{Aries}} & & 
@@ -166,8 +166,8 @@ ${rows.join('\n')}`;
   const hpDate = startOfUtcDay(dates[0]);
   const hpRows = horizontalParallaxRows(hpDate);
 
-  return String.raw`\renewcommand{\arraystretch}{1.1}
-\setlength{\tabcolsep}{4pt}  % default 6pt
+  return String.raw`\renewcommand{\arraystretch}{${layout.modern ? '1.1' : '0.96'}}
+\setlength{\tabcolsep}{${layout.modern ? '4pt' : '3.4pt'}}  % default 6pt
 \begin{tabular}[t]{|rrr|}
 \multicolumn{3}{c}{\normalsize{Stars}}${ROW_END}
 \hline
@@ -290,16 +290,16 @@ function layoutFor(config) {
     titleBottom: '15mm',
     titleLeft: letter ? '12mm' : '10mm',
     titleRight: letter ? '12mm' : '10mm',
-    evenTop: modern ? letter ? '9.4mm' : '15.8mm' : letter ? '17.2mm' : '25mm',
-    evenBottom: modern ? letter ? '8mm' : '12mm' : letter ? '12mm' : '16mm',
-    evenOuter: modern ? letter ? '12.5mm' : '10mm' : letter ? '13mm' : '9mm',
-    evenInner: modern ? letter ? '12.5mm' : '10mm' : letter ? '13mm' : '10mm',
-    evenHeadSep: modern ? letter ? '2.8pt' : '3.0pt' : letter ? '1.5pt' : '1.8pt',
-    oddTop: modern ? letter ? '8mm' : '16mm' : letter ? '19mm' : '27.5mm',
-    oddBottom: modern ? letter ? '8mm' : '13mm' : letter ? '12mm' : '16mm',
+    evenTop: letter ? '9.4mm' : '15.8mm',
+    evenBottom: letter ? '8mm' : '12mm',
+    evenOuter: letter ? '12.5mm' : '10mm',
+    evenInner: letter ? '12.5mm' : '10mm',
+    evenHeadSep: letter ? '2.8pt' : '3.0pt',
+    oddTop: letter ? '8mm' : '16mm',
+    oddBottom: letter ? '8mm' : '13mm',
     oddOuter: modern ? letter ? '13mm' : '11mm' : '11mm',
     oddInner: modern ? letter ? '13mm' : '14mm' : '14mm',
-    oddHeadSep: modern ? letter ? '0pt' : '4.6pt' : letter ? '6.1pt' : '6.5pt',
+    oddHeadSep: letter ? '0pt' : '4.6pt',
     footSkip: '12pt',
     stylePackages: modern
       ? String.raw`\usepackage[table]{xcolor}
