@@ -1,5 +1,5 @@
 import { addDays } from './time.js';
-import { addHours, bodyGhaDec, dailyEvents, equationOfTime, formatMinutes, meridianEvents, navigationalStars, planetsGha, planetCorrections, STANDARD_LATITUDES, sunMoon, sunMoonSemiDiameters } from './ephemeris/index.js';
+import { addHours, ariesTransit, bodyGhaDec, dailyEvents, equationOfTime, formatMinutes, meridianEvents, navigationalStars, planetsGha, planetCorrections, STANDARD_LATITUDES, sunMoon, sunMoonSemiDiameters } from './ephemeris/index.js';
 
 const ROW_END = String.raw`\\`;
 const NAV_PLANETS = ['Venus', 'Mars', 'Jupiter', 'Saturn'];
@@ -94,7 +94,7 @@ ${layout.modern ? String.raw`\sffamily
 \fancyhead[LE]{\quad\textsf{\textbf{${evenHeader(padded)}}}}` : String.raw`\fancyhead[LE]{\quad\textbf{${evenHeader(padded)}}}`}
 \begin{scriptsize}
 ${layout.modern ? String.raw`\vspace{6Pt}` : String.raw`\vspace{0Pt}`}\noindent
-${planetHoursTable(padded, layout)}\quad
+${planetHoursTable(padded, layout)}${layout.modern ? String.raw`\quad` : String.raw`\enskip`}
 ${starAndPlanetDetailTable(padded, layout)}
 \end{scriptsize}
 % ------------------ N E W   O D D   P A G E ------------------
@@ -105,13 +105,14 @@ ${layout.modern ? String.raw`\fancyhead[RO]{\textsf{\textbf{${oddHeader(padded)}
 \quad` : String.raw`\fancyhead[RO]{\textbf{${oddHeader(padded)}}}
 \fancyheadoffset[RO]{0pt}
 \begin{scriptsize}`}
-${sunMoonHoursTable(padded, layout)}\quad\quad
+${sunMoonHoursTable(padded, layout)}${layout.modern ? String.raw`\quad\quad` : String.raw`\enskip`}
 ${twilightMoonEquationTable(padded, layout)}
 \end{scriptsize}
 `;
 }
 
 function planetHoursTable(dates, layout) {
+  if (!layout.modern) return traditionalPlanetHoursTable(dates, layout);
   const sections = dates.map((date, index) => {
     const rows = [];
     const corrections = planetCorrections(startOfUtcDay(date));
@@ -127,7 +128,7 @@ function planetHoursTable(dates, layout) {
 \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c}{\textbf{Dec}} &&  \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c}{\textbf{Dec}} &&  \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c}{\textbf{Dec}} &&  \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c}{\textbf{Dec}}${ROW_END}
 ${rows.join('\n')}
 \cmidrule{1-2} \cmidrule{4-5} \cmidrule{7-8} \cmidrule{10-11} \cmidrule{13-14}
-\multicolumn{2}{c}{\footnotesize{Mer.pass. ${trimSeconds(meridianEvents(date).planetRows[0]?.meridianPassage)}}} && ${correctionCells(corrections)}${ROW_END}
+\multicolumn{2}{c}{\footnotesize{Mer.pass. ${ariesTransit(date)}}} && ${correctionCells(corrections)}${ROW_END}
 \cmidrule{1-2} \cmidrule{4-5} \cmidrule{7-8} \cmidrule{10-11} \cmidrule{13-14}`;
   });
 
@@ -145,6 +146,47 @@ ${sections.join('\n')}
 \end{tabular}`;
 }
 
+function traditionalPlanetHoursTable(dates, layout) {
+  const sections = dates.map((date, index) => {
+    const rows = [];
+    const corrections = planetCorrections(startOfUtcDay(date));
+    for (let hour = 0; hour < 24; hour += 1) {
+      const values = planetsGha(hourDate(date, hour));
+      const planetCells = values.planets.map(planet => `${planet.gha} & ${formatDeclination(planet.dec, hour, layout)}`);
+      rows.push(`${hour} & ${values.aries} & ${planetCells.join(' & ')} ${traditionalRowEnd(hour)}`);
+    }
+
+    const spacer = index < 2 ? String.raw`\hline
+\multicolumn{10}{c}{}\\` : '';
+    return String.raw`\hline
+\rule{0pt}{2.4ex}\textbf{${weekday(date)}} & \multicolumn{1}{c|}{\textbf{GHA}} & \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c|}{\textbf{Dec}} & \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c|}{\textbf{Dec}} & \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c|}{\textbf{Dec}} & \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c|}{\textbf{Dec}}${ROW_END}
+\hline\rule{0pt}{2.6ex}\noindent
+${rows.join('\n')}
+\hline
+\multicolumn{2}{|c|}{\rule{0pt}{2.4ex}Mer.pass. ${ariesTransit(date)}} & 
+${traditionalCorrectionCells(corrections)}${ROW_END}
+${spacer}`;
+  });
+
+  return String.raw`\noindent
+\setlength{\tabcolsep}{4.8pt}  % default 6pt
+\begin{tabular}[t]{|c|r|rr|rr|rr|rr|}
+\multicolumn{1}{c}{\normalsize{}} & \multicolumn{1}{c}{\normalsize{Aries}} & \multicolumn{2}{c}{\normalsize{Venus}}& \multicolumn{2}{c}{\normalsize{Mars}} & \multicolumn{2}{c}{\normalsize{Jupiter}} & \multicolumn{2}{c}{\normalsize{Saturn}}${ROW_END}
+${sections.join('\n')}
+\hline
+\end{tabular}`;
+}
+
+function traditionalCorrectionCells(corrections) {
+  return NAV_PLANETS.map(name => {
+    const row = corrections.find(item => item.body === name);
+    return String.raw`\multicolumn{2}{c|}{\(\nu\) ${row?.v ?? '--'}$'$ \emph{d} ${row?.d ?? '--'}$'$ m ${row?.magnitude ?? '--'}\hphantom{0}}`;
+  }).join(' & \n');
+}
+
+function traditionalRowEnd(hour) {
+  return hour < 23 && (hour + 1) % 6 === 0 ? String.raw`\\[2Pt]` : ROW_END;
+}
 function correctionCells(corrections) {
   return NAV_PLANETS.map(name => {
     const row = corrections.find(item => item.body === name);
@@ -153,6 +195,7 @@ function correctionCells(corrections) {
 }
 
 function starAndPlanetDetailTable(dates, layout) {
+  if (!layout.modern) return traditionalStarAndPlanetDetailTable(dates);
   const stars = navigationalStars(addDays(startOfUtcDay(dates[0]), 1));
   const starRows = stars.map(star => `${star.name} & ${star.sha} & ${formatDeclination(star.dec, 0, layout, true)} ${ROW_END}`);
   const planetSections = dates.map(date => {
@@ -183,7 +226,39 @@ ${hpRows}
 \end{tabular}`;
 }
 
+function traditionalStarAndPlanetDetailTable(dates) {
+  const stars = navigationalStars(addDays(startOfUtcDay(dates[0]), 1));
+  const starRows = stars.map(star => `${star.name} & ${star.sha} & ${formatTraditionalSignedDeclination(star.dec)} ${ROW_END}`);
+  const planetSections = dates.map(date => {
+    const rows = meridianEvents(date).planetRows.map(row => `${row.body} & ${row.sha} & ${trimSeconds(row.meridianPassage)} ${ROW_END}`);
+    return String.raw`\hline
+& & \multicolumn{1}{r|}{}\\[-2.0ex]
+\textbf{${monthDayWeekday(date).replace(',', '')}} & \textbf{SHA} & \textbf{Mer.pass}${ROW_END}
+${rows.join('\n')}\hline`;
+  });
+  const hpDate = startOfUtcDay(dates[0]);
+  const venus = planetHorizontalParallax('Venus', hpDate);
+  const mars = planetHorizontalParallax('Mars', hpDate);
+
+  return String.raw`\setlength{\tabcolsep}{4.4pt}  % default 6pt
+\begin{tabular}[t]{|rrr|}
+\multicolumn{3}{c}{\normalsize{Stars}}${ROW_END}
+\hline
+\rule{0pt}{2.4ex} & \multicolumn{1}{c}{\textbf{SHA}} & \multicolumn{1}{c|}{\textbf{Dec}}${ROW_END}
+\hline\rule{0pt}{2.6ex}\noindent
+${starRows.join('\n')}
+\hline
+${planetSections.join('\n')}
+\hline
+& & \multicolumn{1}{r|}{}\\[-2.5ex]
+\multicolumn{2}{|r}{\rule{0pt}{2.6ex}\textbf{Horizontal parallax}} & \multicolumn{1}{c|}{}${ROW_END}
+\multicolumn{2}{|r}{Venus:} & \multicolumn{1}{c|}{${venus}} ${ROW_END}
+\multicolumn{2}{|r}{Mars:} & \multicolumn{1}{c|}{${mars}} ${ROW_END}
+\hline
+\end{tabular}`;
+}
 function sunMoonHoursTable(dates, layout) {
+  if (!layout.modern) return traditionalSunMoonHoursTable(dates, layout);
   const sections = dates.map((date, index) => {
     const rows = [];
     for (let hour = 0; hour < 24; hour += 1) {
@@ -207,18 +282,46 @@ ${sections.join('\n')}
 \end{tabular}`;
 }
 
+function traditionalSunMoonHoursTable(dates, layout) {
+  const sections = dates.map((date, index) => {
+    const rows = [];
+    for (let hour = 0; hour < 24; hour += 1) {
+      const row = sunMoon(hourDate(date, hour));
+      rows.push(`${hour} & ${row.sunGha} & ${formatDeclination(row.sunDec, hour, layout)} & ${row.moonGha} & ${row.moonV} & ${formatDeclination(row.moonDec, hour, layout)} & ${row.moonD} & ${row.moonHp} ${traditionalRowEnd(hour)}`);
+    }
+    const sd = sunMoonSemiDiameters(startOfUtcDay(date));
+    const spacer = index < 2 ? String.raw`\hline
+\multicolumn{7}{c}{}\\[-1.5ex]` : '';
+    return String.raw`\hline
+\multicolumn{1}{|c|}{\rule{0pt}{2.6ex}\textbf{${weekday(date)}}} &\multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c|}{\textbf{Dec}}  & \multicolumn{1}{c}{\textbf{GHA}} & \multicolumn{1}{c}{\(\nu\)} & \multicolumn{1}{c}{\textbf{Dec}} & \multicolumn{1}{c}{\textit{d}} & \multicolumn{1}{c|}{\textbf{HP}}${ROW_END}
+\hline\rule{0pt}{2.6ex}\noindent
+${rows.join('\n')}
+\hline
+\rule{0pt}{2.4ex} & \multicolumn{1}{c}{SD = ${sd.sunSd}$'$} & \multicolumn{1}{c|}{\textit{d} = ${sd.sunD}$'$} & \multicolumn{5}{c|}{SD = ${sd.moonSd}$'$}${ROW_END}
+${spacer}`;
+  });
+
+  return String.raw`\noindent
+\setlength{\tabcolsep}{4.8pt}  % default 6pt
+\begin{tabular}[t]{|c|rr|rrrrr|}
+\multicolumn{1}{c}{\normalsize{h}}& \multicolumn{2}{c}{\normalsize{Sun}} & \multicolumn{5}{c}{\normalsize{Moon}}${ROW_END}
+${sections.join('\n')}
+\hline
+\end{tabular}`;
+}
 function twilightMoonEquationTable(dates, layout) {
+  if (!layout.modern) return traditionalTwilightMoonEquationTable(dates);
   const middleDate = dates[1] ?? dates[0];
   const twilightRows = STANDARD_LATITUDES.map(latitude => {
     const events = dailyEvents(middleDate, latitude);
-    return `${formatLatitudeLabel(latitude)} & ${events.nauticalDawn} & ${events.civilDawn} & ${events.sunrise} & ${events.sunset} & ${events.civilDusk} & ${events.nauticalDusk} ${ROW_END}`;
+    return `${formatLatitudeLabel(latitude)} & ${formatEventCell(events.nauticalDawn)} & ${formatEventCell(events.civilDawn)} & ${formatEventCell(events.sunrise)} & ${formatEventCell(events.sunset)} & ${formatEventCell(events.civilDusk)} & ${formatEventCell(events.nauticalDusk)} ${ROW_END}`;
   });
 
   const moonRows = STANDARD_LATITUDES.flatMap(latitude => moonRowsForLatitude(dates, latitude));
   const equationRows = dates.map(date => {
     const equation = equationOfTime(date);
     const meridian = meridianEvents(date);
-    return `${String(date.getUTCDate()).padStart(2, '0')} & ${equation.atMidnight} & ${equation.atNoon} & ${meridian.sun} & ${meridian.moonUpper} & ${meridian.moonLower} & ${equation.moonAge}(${equation.moonIllumination}\\%) ${ROW_END}`;
+    return `${String(date.getUTCDate()).padStart(2, '0')} & ${equation.atMidnight} & ${equation.atNoon} & ${trimSeconds(meridian.sun)} & ${trimSeconds(meridian.moonUpper)} & ${trimSeconds(meridian.moonLower)} & ${equation.moonAge}(${equation.moonIllumination}\\%) ${ROW_END}`;
   });
 
   return String.raw`\renewcommand{\arraystretch}{0.88}
@@ -248,11 +351,69 @@ ${equationRows.join('\n')}
 \end{tabular}`;
 }
 
+function traditionalTwilightMoonEquationTable(dates) {
+  const middleDate = dates[1] ?? dates[0];
+  const twilightRows = STANDARD_LATITUDES.map(latitude => {
+    const events = dailyEvents(middleDate, latitude);
+    return `${formatLatitudeLabel(latitude)} & ${formatEventCell(events.nauticalDawn)} & ${formatEventCell(events.civilDawn)} & ${formatEventCell(events.sunrise)} & ${formatEventCell(events.sunset)} & ${formatEventCell(events.civilDusk)} & ${formatEventCell(events.nauticalDusk)} ${ROW_END}`;
+  });
+  const moonRows = STANDARD_LATITUDES.flatMap(latitude => moonRowsForLatitude(dates, latitude));
+  const equationRows = dates.map((date, index) => {
+    const equation = equationOfTime(date);
+    const meridian = meridianEvents(date);
+    const end = index === dates.length - 1 ? String.raw`\\[0.3ex]` : ROW_END;
+    return `${String(date.getUTCDate()).padStart(2, '0')} & ${equation.atMidnight} & ${equation.atNoon} & ${trimSeconds(meridian.sun)} & ${trimSeconds(meridian.moonUpper)} & ${trimSeconds(meridian.moonLower)} & ${equation.moonAge}(${equation.moonIllumination}\\%) ${end}`;
+  });
+
+  return String.raw`\setlength{\tabcolsep}{4.8pt}  % default 6pt
+\begin{tabular}[t]{|r|ccc|ccc|}
+\multicolumn{7}{c}{\normalsize{}}${ROW_END}
+\hline
+\multicolumn{1}{|c|}{\rule{0pt}{2.4ex}\multirow{2}{*}{\textbf{Lat.}}} & 
+\multicolumn{2}{c}{\textbf{Twilight}} & 
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Sunrise}}} & 
+\multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Sunset}}} & 
+\multicolumn{2}{c|}{\textbf{Twilight}}${ROW_END}
+\multicolumn{1}{|c|}{} & 
+\multicolumn{1}{c}{Naut.} & 
+\multicolumn{1}{c}{Civil} & 
+\multicolumn{1}{|c|}{} & 
+\multicolumn{1}{c|}{} & 
+\multicolumn{1}{c}{Civil} & 
+\multicolumn{1}{c|}{Naut.}${ROW_END}
+\hline\rule{0pt}{2.6ex}\noindent
+${twilightRows.join('\n')}
+\hline\multicolumn{7}{c}{}\\[-1.5ex]
+\hline
+\multicolumn{1}{|c|}{\rule{0pt}{2.4ex}\multirow{2}{*}{\textbf{Lat.}}} & 
+\multicolumn{3}{c|}{\textbf{Moonrise}} & 
+\multicolumn{3}{c|}{\textbf{Moonset}}${ROW_END}
+\multicolumn{1}{|c|}{} & 
+\multicolumn{1}{c}{${weekday(dates[0])}} & 
+\multicolumn{1}{c}{${weekday(dates[1])}} & 
+\multicolumn{1}{c|}{${weekday(dates[2])}} & 
+\multicolumn{1}{c}{${weekday(dates[0])}} & 
+\multicolumn{1}{c}{${weekday(dates[1])}} & 
+\multicolumn{1}{c|}{${weekday(dates[2])}} ${ROW_END}
+\hline\rule{0pt}{2.6ex}\noindent
+${moonRows.join('\n')}
+\hline\multicolumn{7}{c}{}\\[-1.5ex]
+\hline
+\multicolumn{1}{|c|}{\rule{0pt}{2.4ex}\multirow{4}{*}{\textbf{Day}}} & 
+\multicolumn{3}{c|}{\textbf{Sun}} & \multicolumn{3}{c|}{\textbf{Moon}}${ROW_END}
+\multicolumn{1}{|c|}{} & \multicolumn{2}{c}{Eqn.of Time} & \multicolumn{1}{|c|}{Mer.} & \multicolumn{2}{c}{Mer.Pass.} & \multicolumn{1}{|c|}{}${ROW_END}
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c}{00\textsuperscript{h}} & \multicolumn{1}{c}{12\textsuperscript{h}} & \multicolumn{1}{|c|}{Pass} & \multicolumn{1}{c}{Upper} & \multicolumn{1}{c}{Lower} &\multicolumn{1}{|c|}{Age}${ROW_END}
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c}{mm:ss} & \multicolumn{1}{c}{mm:ss} & \multicolumn{1}{|c|}{hh:mm} & \multicolumn{1}{c}{hh:mm} & \multicolumn{1}{c}{hh:mm} &\multicolumn{1}{|c|}{}${ROW_END}
+\hline\rule{0pt}{3.0ex}\noindent
+${equationRows.join('\n')}
+\hline
+\end{tabular}`;
+}
 function moonRowsForLatitude(dates, latitude) {
   const label = formatLatitudeLabel(latitude);
   const events = dates.map(date => dailyEvents(date, latitude));
-  const first = [...events.map(event => event.moonrise), ...events.map(event => event.moonset)];
-  const second = [...events.map(event => event.secondMoonrise), ...events.map(event => event.secondMoonset)];
+  const first = [...events.map(event => formatEventCell(event.moonrise)), ...events.map(event => formatEventCell(event.moonset))];
+  const second = [...events.map(event => formatEventCell(event.secondMoonrise)), ...events.map(event => formatEventCell(event.secondMoonset))];
   const hasSecond = second.some(value => value !== '--:--');
 
   if (!hasSecond) return [`${label} & ${first.join(' & ')} ${ROW_END}`];
@@ -371,6 +532,13 @@ function formatDeclination(value, hour, layout, forceHemisphere = false) {
   return layout.modern ? String.raw`\textcolor{blue}{${hemisphere}}${degrees}` : String.raw`\textbf{${hemisphere}}${degrees}`;
 }
 
+function formatTraditionalSignedDeclination(value) {
+  if (!value || value === '--') return value;
+  const south = value.startsWith('-');
+  const hemisphere = south ? 'S' : 'N';
+  const degrees = south ? value.slice(1) : value;
+  return String.raw`\textbf{${hemisphere}}${degrees}`;
+}
 function minutesOnly(value) {
   const match = /\$\^\\circ\$(.*)$/.exec(value);
   return match ? match[1] : value;
@@ -416,6 +584,9 @@ function startOfUtcDay(date) {
   return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
 }
 
+function formatEventCell(value) {
+  return typeof value === 'string' && /^\d{2}:\d{2}:\d{2}$/.test(value) ? trimSeconds(value) : value;
+}
 function trimSeconds(value) {
   if (!value) return '--:--';
   return value.replace(/:\d{2}$/, '');

@@ -81,6 +81,15 @@ export function planetsGha(date) {
   return { aries, planets: rows };
 }
 
+export function ariesTransit(date) {
+  const nextDay = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate() + 1));
+  const siderealHours = Astronomy.SiderealTime(nextDay);
+  const solarHours = (24 - siderealHours / 1.00273790935 + 24) % 24;
+  const hours = Math.floor(solarHours);
+  const minutes = Math.floor((solarHours - hours) * 60);
+  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+}
+
 export function planetCorrections(date) {
   return NAV_PLANETS.map(body => {
     const current = bodyGhaDec(body, date);

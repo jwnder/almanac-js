@@ -11,7 +11,10 @@
     "start": "node src/cli.js",
     "check": "node scripts/check-syntax.js",
     "pdf": "node src/compile-tex.js",
-    "test": "node --test"
+    "test": "node --test",
+    "samples": "node scripts/generate-samples.js",
+    "validate:year": "node scripts/validate-year.js",
+    "validate:horizons": "node scripts/validate-horizons.js"
   },
   "dependencies": {
     "astronomy-engine": "^2.1.19",

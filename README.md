@@ -75,6 +75,22 @@ npm run check
 npm test
 ```
 
+Validate a full year of generated ephemeris values with range and continuity checks:
+
+```powershell
+npm run validate:year -- 2026
+```
+
+The year validator scans every day/hour in the year, standard latitude events, meridian passages, moon phase values, and navigational star rows. It reports hard errors, warnings, and the largest continuity deltas. Use `node scripts\validate-year.js 2026 --json` for machine-readable output.
+
+Validate against NASA/JPL Horizons, independent of Pyalmanac:
+
+```powershell
+npm run validate:horizons -- 2026
+```
+
+The Horizons validator compares apparent geocentric RA/Dec for the Sun, Moon, Venus, Mars, Jupiter, and Saturn against NASA/JPL Horizons observer ephemerides (`QUANTITIES=2`, geocentric Earth center). By default it checks one row per day for the requested year. Use `node scripts\validate-horizons.js 2026 --step="1 h"` for hourly external checks, or `--bodies=Sun,Moon` to limit the run.
+
 ## Troubleshooting
 
 If `pdflatex` is not recognized, reopen PowerShell. If it still fails, confirm MiKTeX is installed and add its `miktex\bin\x64` directory to `PATH`.

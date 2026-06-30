@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { equationOfTime, formatNauticalDegrees, sunMoon, planetsGha } from '../src/ephemeris/index.js';
+import { ariesTransit, equationOfTime, formatNauticalDegrees, sunMoon, planetsGha } from '../src/ephemeris/index.js';
 import { makeSunTablesTex } from '../src/sun-tables.js';
 
 test('formats nautical degrees like Pyalmanac LaTeX output', () => {
@@ -22,6 +22,7 @@ test('calculates Aries and navigational planet rows', () => {
   assert.equal(values.aries, '100$^\\circ$39.7');
   assert.equal(values.planets.length, 4);
   assert.deepEqual(values.planets.map(row => row.body), ['Venus', 'Mars', 'Jupiter', 'Saturn']);
+  assert.equal(ariesTransit(new Date(Date.UTC(2026, 0, 1))), '17:14');
 });
 
 
@@ -86,7 +87,7 @@ test('renders Nautical Almanac rows with real Sun/Moon/planet data', async () =>
   assert.match(tex, /Venus & 79\$\^\\circ\$56\.6 & 11:58:21/);
   assert.ok(tex.includes('Alpheratz'));
   assert.ok(tex.includes('Markab'));
-  assert.ok(tex.includes(String.raw`\textbf{N} 40$^\circ$ & 06:17:41 & 06:51:36 & 07:21:58`));
+  assert.ok(tex.includes(String.raw`\textbf{N} 40$^\circ$ & 06:17 & 06:51 & 07:21`));
   assert.ok(tex.includes(String.raw`\colorbox{lightgray!60}{03:34}`));
   assert.ok(tex.includes(String.raw`\newcommand{\AlwaysDown}`));
   assert.ok(tex.includes(String.raw`\AlwaysDown`));
